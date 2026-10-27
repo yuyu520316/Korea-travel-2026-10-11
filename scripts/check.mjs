@@ -28,9 +28,15 @@ const guide = await readFile(path.join(root, 'dist/guide.js'), 'utf8');
 new vm.Script(main.match(/<script>([\s\S]*?)<\/script>/)[1]);
 new vm.Script(guide);
 // Guard against the prior layout bug: sections must not sit inside the quick-info grid.
-assert(main.includes('</div>\n<section id="journey">'), 'Close quick-info grid before itinerary');
+assert(/<\/div>\s*<section id="journey">/.test(main), 'Close quick-info grid before itinerary');
 assert(main.includes('href="guide.html"'), 'Keep second-page navigation');
-assert(main.includes('中華電信 20GB／NT$788'), 'Keep confirmed mobile data plan');
+assert(main.includes('中華電信學生漫遊') && main.includes('NT$788'), 'Keep latest roaming price');
+assert(!main.includes('NT$709'), 'Remove superseded roaming discount');
+assert(main.includes('CI161') && main.includes('41K') && main.includes('CI162'), 'Keep confirmed flights and seat');
+assert(main.includes('L YOUNG Inn') && main.includes('2,253'), 'Keep confirmed hotel and cost');
+assert(main.includes('大家的 10/28 行程'), 'Keep group arrival itinerary separate');
+assert(!JSON.stringify(places).includes('郁萱') && !JSON.stringify(places).includes('慕程'), 'Keep personal allergy identities off public page');
+assert(places.filter(p=>p.area === '束草中央市場' && p.ingredients?.length).length >= 7, 'Keep ingredient reminders for market foods');
 const returnDay = trip.days.find(day => day.date === '11/3');
 assert(returnDay.events.some(event => event.time.includes('09:30')), 'Arrive at ICN by 09:30');
 console.log('Data, scripts, navigation, layout guard, and return-flight checks passed.');

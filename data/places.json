@@ -23,13 +23,48 @@
     "day": "10/29",
     "status": "團體行程",
     "desc": "12:00–13:45 市場午餐與散策，接著前往束草海灘。",
-    "tip": "午餐店家未指定；先與大家確認集合時間，避免逛散。",
+    "tip": "四項必吃候選：魷魚米腸、炸海鮮、紅雪蟹麵、黑米煎餅。點餐前確認蜂蜜、海鮮、湯底與共用油具；不能只靠餐名判斷配方。",
     "address": "束草市場區域・集合入口待確認",
     "coord": [
       38.204,
       128.591
     ],
-    "query": "속초관광수산시장"
+    "query": "속초관광수산시장",
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "refs": [
+      {
+        "title": "韓國觀光公社・市場介紹",
+        "url": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+      },
+      {
+        "title": "安妮王・市場美食攻略",
+        "url": "https://anniequeentraveldiary.com/%e3%80%90%e9%9f%93%e5%9c%8b%e5%bf%85%e5%8e%bb%e6%99%af%e9%bb%9e%e6%8e%a8%e8%96%a6%e3%80%91%e6%9d%9f%e8%8d%89%e8%a7%80%e5%85%89%e6%b0%b4%e7%94%a2%e5%b8%82%e5%a0%b4%e2%94%82%e9%a6%96%e7%88%be%e8%bf%91/"
+      },
+      {
+        "title": "原痞客邦攻略（含搬家連結）",
+        "url": "https://pfse64289.pixnet.net/blog/posts/15347118281"
+      },
+      {
+        "title": "方格子・你提供的參考",
+        "url": "https://vocus.cc/article/amp/69043f98fd89780001b9dfb4",
+        "note": "內容尚未讀取核實"
+      },
+      {
+        "title": "小菲・魷魚米腸與市場散策",
+        "url": "https://feitravel.tw/p-5068668283/"
+      }
+    ],
+    "ingredientInfo": "市場多個攤位供應海鮮；醬料可能使用蜂蜜，並可能共用油鍋、鐵板及夾具。配方與製程請直接向店家確認，這裡不標示任何餐點為過敏安全。",
+    "ingredients": [
+      {
+        "label": "蜂蜜配方待詢問",
+        "kind": "honey"
+      },
+      {
+        "label": "海鮮／共用器具需確認",
+        "kind": "seafood"
+      }
+    ]
   },
   {
     "id": "tosokchon",
@@ -586,5 +621,213 @@
     "scope": "solo",
     "day": "日期待定",
     "status": "使用者想去・未排入"
+  },
+  {
+    "id": "sokcho-squid",
+    "scope": "group",
+    "type": "food",
+    "title": "魷魚米腸",
+    "ko": "오징어순대",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一：以魷魚為主要食材的市場小吃。",
+    "tip": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
+    "ingredientInfo": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
+    "ingredients": [
+      {
+        "label": "含海鮮：魷魚",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 오징어순대",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+  },
+  {
+    "id": "sokcho-fried-seafood",
+    "scope": "group",
+    "type": "food",
+    "title": "炸海鮮",
+    "ko": "해물튀김",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，品項可能包括蝦、魷魚或蟹。",
+    "tip": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
+    "ingredientInfo": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
+    "ingredients": [
+      {
+        "label": "含海鮮",
+        "kind": "seafood"
+      },
+      {
+        "label": "醬料蜂蜜待確認",
+        "kind": "honey"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 해물튀김",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+  },
+  {
+    "id": "sokcho-crab-noodle",
+    "scope": "group",
+    "type": "food",
+    "title": "紅雪蟹麵",
+    "ko": "홍게라면",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，蟹與湯底都需要留意。",
+    "tip": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
+    "ingredientInfo": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
+    "ingredients": [
+      {
+        "label": "含海鮮：蟹",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 홍게라면",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+  },
+  {
+    "id": "sokcho-blackrice",
+    "scope": "group",
+    "type": "food",
+    "title": "黑米煎餅",
+    "ko": "흑미 부꾸미（名稱以現場確認）",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，店家與實際品項待選。",
+    "tip": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
+    "ingredientInfo": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
+    "ingredients": [
+      {
+        "label": "蜂蜜／淋醬待確認",
+        "kind": "honey"
+      },
+      {
+        "label": "海鮮共用器具待確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 흑미 부꾸미",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+  },
+  {
+    "id": "sokcho-chicken",
+    "scope": "group",
+    "type": "food",
+    "title": "韓式甜辣炸雞",
+    "ko": "닭강정",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "餐點候選・現場再確認",
+    "desc": "市場炸雞候選。你提醒甜味醬料可能使用蜂蜜。",
+    "tip": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
+    "ingredientInfo": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
+    "ingredients": [
+      {
+        "label": "可能含蜂蜜：必須確認",
+        "kind": "honey"
+      },
+      {
+        "label": "共用油鍋需確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 닭강정",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
+  },
+  {
+    "id": "sokcho-kimchi",
+    "scope": "group",
+    "type": "food",
+    "title": "泡菜煎餅・正伊家候選",
+    "ko": "정이네 속초중앙시장점・김치전",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "餐點候選・現場再確認",
+    "desc": "第三方菜單列有泡菜煎餅，可作為到市場後詢問的店家候選。",
+    "tip": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
+    "ingredientInfo": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
+    "ingredients": [
+      {
+        "label": "泡菜／配料可能含海鮮",
+        "kind": "seafood"
+      },
+      {
+        "label": "蜂蜜醬料待確認",
+        "kind": "honey"
+      }
+    ],
+    "address": "第三方資料：束草市中央路147番街16，市場1樓148號（到訪前確認）",
+    "query": "정이네 속초중앙시장점",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://polle.com/place/3jgOdn/정이네"
+  },
+  {
+    "id": "sokcho-pumpkin",
+    "scope": "group",
+    "type": "food",
+    "title": "南瓜粥・攤位待確認",
+    "ko": "호박죽 / 단호박죽",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "想找・尚未查到攤位",
+    "desc": "已列入你想找的品項，但尚未查證市場內固定販售南瓜粥的攤位。",
+    "tip": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
+    "ingredientInfo": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
+    "ingredients": [
+      {
+        "label": "蜂蜜／甜味配方待確認",
+        "kind": "honey"
+      },
+      {
+        "label": "共用器具待確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 호박죽",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "refs": [
+      {
+        "title": "參考菜單：有南瓜甜米露，未確認有粥",
+        "url": "https://polle.com/place/3jgOdn/정이네"
+      }
+    ]
   }
 ]

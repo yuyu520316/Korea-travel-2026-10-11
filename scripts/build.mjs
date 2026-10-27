@@ -6,7 +6,7 @@ const trip = JSON.parse(await readFile(path.join(root, 'data/trip.json'), 'utf8'
 const places = JSON.parse(await readFile(path.join(root, 'data/places.json'), 'utf8'));
 const safe = value => JSON.stringify(value).replaceAll('<', '\\u003c');
 await mkdir(path.join(root, 'dist'), { recursive: true });
-for (const file of ['index.html', 'guide.html', 'guide.js', 'guide.css', 'shopping.html', 'shopping.js', 'shopping.css']) {
+for (const file of ['index.html', 'guide.html', 'guide.js', 'guide.css', 'shopping.html', 'shopping.js', 'shopping.css', 'ui.css', 'home.css']) {
   await copyFile(path.join(root, 'site', file), path.join(root, 'dist', file));
 }
 let main = await readFile(path.join(root, 'site/index.html'), 'utf8');
