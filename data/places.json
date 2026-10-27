@@ -1,0 +1,590 @@
+[
+  {
+    "id": "pork",
+    "scope": "group",
+    "type": "food",
+    "title": "豬腳小姐",
+    "ko": "店家分店待確認",
+    "area": "弘大",
+    "day": "10/28",
+    "status": "團體原表・你不參加",
+    "desc": "大家原定 17:00–19:00 用餐，你 19:15 才抵達仁川，不安排你加入這餐。",
+    "tip": "保留為團體參考；你當晚的晚餐等入境與交通確定後再安排。",
+    "address": "待確認分店與地址",
+    "query": "豬腳小姐 弘大"
+  },
+  {
+    "id": "sokcho-market",
+    "scope": "group",
+    "type": "food",
+    "title": "束草中央市場",
+    "ko": "속초관광수산시장",
+    "area": "束草",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "12:00–13:45 市場午餐與散策，接著前往束草海灘。",
+    "tip": "午餐店家未指定；先與大家確認集合時間，避免逛散。",
+    "address": "束草市場區域・集合入口待確認",
+    "coord": [
+      38.204,
+      128.591
+    ],
+    "query": "속초관광수산시장"
+  },
+  {
+    "id": "tosokchon",
+    "scope": "group",
+    "type": "food",
+    "title": "土俗村蔘雞湯",
+    "ko": "토속촌삼계탕",
+    "area": "景福宮・西村",
+    "day": "10/30",
+    "status": "團體行程",
+    "desc": "10:00–12:00 蔘雞湯午餐，之後銜接韓服體驗與景福宮。",
+    "tip": "官方介紹為蔘雞湯專門店；預留等位時間，韓服店仍待確認。",
+    "address": "서울 종로구 자하문로5길 5",
+    "coord": [
+      37.5778,
+      126.9717
+    ],
+    "query": "토속촌삼계탕 자하문로5길 5",
+    "source": "https://english.visitseoul.net/area/TosokchonSamgyetang/ENPywjsmm"
+  },
+  {
+    "id": "crab",
+    "scope": "group",
+    "type": "food",
+    "title": "元祖馬山小鬍子家・醬蟹",
+    "ko": "正式韓文店名待確認",
+    "area": "江南",
+    "day": "10/31",
+    "status": "店家待確認",
+    "desc": "11:30–13:30 與大家吃醬蟹，沿用原行程店名。",
+    "tip": "取得店家連結或訂位資料後，才能標示正確位置。",
+    "address": "待確認正式店名與地址",
+    "query": "元祖馬山小鬍子家 醬蟹"
+  },
+  {
+    "id": "myeong-food",
+    "scope": "group",
+    "type": "food",
+    "title": "明洞逛街晚餐",
+    "ko": "명동",
+    "area": "明洞",
+    "day": "10/30",
+    "status": "餐廳待選",
+    "desc": "17:00–22:00 跟學弟妹團逛街、吃晚餐。",
+    "tip": "地圖顯示明洞區域；店家依現場喜好決定。",
+    "address": "明洞區域・非特定餐廳",
+    "coord": [
+      37.563,
+      126.985
+    ],
+    "query": "명동 음식점"
+  },
+  {
+    "id": "hongdae-bbq",
+    "scope": "group",
+    "type": "food",
+    "title": "弘大燒烤宵夜",
+    "ko": "홍대",
+    "area": "弘大",
+    "day": "10/29",
+    "status": "自由參加",
+    "desc": "22:00–24:00 看秀後的自由參加宵夜。",
+    "tip": "餐廳未指定；看秀後依精神與返程時間決定是否參加。",
+    "address": "弘大區域・餐廳待選",
+    "coord": [
+      37.556,
+      126.923
+    ],
+    "query": "홍대 고기집"
+  },
+  {
+    "id": "seorak",
+    "scope": "group",
+    "type": "sight",
+    "title": "雪嶽山・纜車與權金城",
+    "ko": "설악산",
+    "area": "束草周邊",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "第二天 10/29，原定 07:00–10:00 預留 3 小時；運行時間依當日公告。",
+    "tip": "成人來回 ₩16,000、單程約5分鐘；當日現場購票、不接受預約。風大先確認運行公告，可致電 +82-33-636-4300。",
+    "address": "강원도 속초시 설악산로 1085",
+    "coord": [
+      38.173,
+      128.489
+    ],
+    "query": "설악산 국립공원",
+    "source": "https://www.sorakcablecar.co.kr/guide",
+    "route": [
+      "雪嶽洞小公園：現場購票、候車",
+      "纜車約5分鐘 → 權金城上站",
+      "步行約15–20分鐘 → 權金城遺址",
+      "拍照、休息約20–30分鐘",
+      "步行約15–20分鐘回上站",
+      "纜車約5分鐘回小公園"
+    ],
+    "routeNote": "依你的筆記，連同購票、候車與慢走預留2.5–3小時。步道狀況依當日公告；需搭纜車下山，不售單程票。"
+  },
+  {
+    "id": "naksan",
+    "scope": "group",
+    "type": "sight",
+    "title": "洛山寺",
+    "ko": "낙산사",
+    "area": "襄陽",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "10:00–12:00，雪嶽山後的下一站。",
+    "tip": "此時段沿用原表，移動時間需再與包車行程核對。",
+    "address": "洛山寺周邊・非指定集合入口",
+    "coord": [
+      38.125,
+      128.628
+    ],
+    "query": "낙산사"
+  },
+  {
+    "id": "beach",
+    "scope": "group",
+    "type": "sight",
+    "title": "束草海灘",
+    "ko": "속초해수욕장",
+    "area": "束草",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "13:45–15:00 海邊散步與拍照，15:00 原定返程弘大。",
+    "tip": "海邊活動留意風勢；返程到達時間依交通狀況。",
+    "address": "束草海灘區域",
+    "coord": [
+      38.19,
+      128.601
+    ],
+    "query": "속초해수욕장"
+  },
+  {
+    "id": "palace",
+    "scope": "group",
+    "type": "sight",
+    "title": "景福宮",
+    "ko": "경복궁",
+    "area": "景福宮",
+    "day": "10/30",
+    "status": "學弟妹團",
+    "desc": "13:30–15:10 穿韓服參觀與拍照。",
+    "tip": "先完成韓服體驗；參觀動線與票務依現場公告。",
+    "address": "景福宮周邊・入場入口待確認",
+    "coord": [
+      37.579,
+      126.977
+    ],
+    "query": "경복궁"
+  },
+  {
+    "id": "bukchon",
+    "scope": "group",
+    "type": "sight",
+    "title": "北村韓屋村",
+    "ko": "북촌한옥마을",
+    "area": "北村",
+    "day": "10/30",
+    "status": "學弟妹團",
+    "desc": "原定 15:10–16:20，接著歸還韓服。",
+    "tip": "屬住宅區，請安靜參訪；可進入的區域與時段須再確認。",
+    "address": "北村韓屋村區域",
+    "coord": [
+      37.582,
+      126.984
+    ],
+    "query": "북촌한옥마을"
+  },
+  {
+    "id": "seongsu",
+    "scope": "group",
+    "type": "sight",
+    "title": "聖水洞",
+    "ko": "성수동",
+    "area": "聖水",
+    "day": "10/31",
+    "status": "與漢南洞擇一",
+    "desc": "14:00–17:00 下午逛街候選區域之一。",
+    "tip": "18:00 要與學姊團會合吃飯看秀，17:00 起先保留移動時間。",
+    "address": "聖水洞商圈區域",
+    "coord": [
+      37.545,
+      127.055
+    ],
+    "query": "성수동"
+  },
+  {
+    "id": "hannam",
+    "scope": "group",
+    "type": "sight",
+    "title": "漢南洞",
+    "ko": "한남동",
+    "area": "漢南",
+    "day": "10/31",
+    "status": "與聖水洞擇一",
+    "desc": "14:00–17:00 下午逛街候選區域之二，尚未定案。",
+    "tip": "請依晚餐會合地點選區域；不用把兩區都排進同一個下午。",
+    "address": "漢南洞區域",
+    "coord": [
+      37.535,
+      127.001
+    ],
+    "query": "한남동"
+  },
+  {
+    "id": "touch-five",
+    "scope": "group",
+    "type": "sight",
+    "title": "TOUCH FIVE",
+    "ko": "正式場館位置待確認",
+    "area": "地點待定",
+    "day": "10/29",
+    "status": "猛男團・地址待定",
+    "desc": "18:30–22:00 與 tsuki、kino、力敏一起看秀，時段含移動與排隊。",
+    "tip": "17:00–18:30 先盥洗化妝；取得票券場館資訊後再補位置。",
+    "address": "待確認票券上的正式場館名稱與地址"
+  },
+  {
+    "id": "yy-show",
+    "scope": "group",
+    "type": "sight",
+    "title": "歪歪晚上場",
+    "ko": "沿用團體對場館的稱呼",
+    "area": "地點待定",
+    "day": "10/31",
+    "status": "猛男團・地址待定",
+    "desc": "18:00 晚餐會合、19:00 領票、20:00–22:00 看秀，之後全員拍照。",
+    "tip": "下午逛街先預留交通時間；餐廳、場館與廣場位置待確認。",
+    "address": "待確認晚餐、場館與拍照廣場位置"
+  },
+  {
+    "id": "solo-friend",
+    "scope": "solo",
+    "type": "sight",
+    "title": "和朋友見面",
+    "ko": "A DAY WITH FRIENDS",
+    "area": "地點待定",
+    "day": "11/1",
+    "status": "已保留・地點待定",
+    "desc": "這一天先保留給朋友，見面城市、區域與時段尚未確認。",
+    "tip": "確認朋友的安排後，再決定當天美食和住宿，不套用團體回程。",
+    "address": "尚未確認，不標示地圖位置"
+  },
+  {
+    "id": "mangwon",
+    "scope": "solo",
+    "type": "food",
+    "title": "望遠市場",
+    "ko": "망원시장",
+    "area": "望遠・麻浦",
+    "day": "日期待定",
+    "status": "使用者想去・未排入",
+    "desc": "把小吃、市場和街區散步放在一起，作為個人日的美食候選。",
+    "tip": "可留意炸雞塊、可樂餅等市場小吃；店家各自營業，不預設指定名店。",
+    "address": "서울 마포구 포은로6길 27（官方旅遊資料）",
+    "coord": [
+      37.556,
+      126.906
+    ],
+    "query": "망원시장",
+    "source": "https://english.visitseoul.net/shopping/Mangwon%20Market/ENP037950"
+  },
+  {
+    "id": "gwangjang",
+    "scope": "solo",
+    "type": "food",
+    "title": "廣藏市場",
+    "ko": "광장시장",
+    "area": "鐘路",
+    "day": "日期待定",
+    "status": "使用者想去・未排入",
+    "desc": "想試韓式市場小吃時，可收進口袋名單。",
+    "tip": "綠豆煎餅與迷你紫菜飯捲可列入候選；先看標價，再依份量點餐。",
+    "address": "서울 종로구 창경궁로 88",
+    "coord": [
+      37.57,
+      126.999
+    ],
+    "query": "광장시장",
+    "source": "https://english.visitseoul.net/shopping/Traditional-Market-Tour-Find-the-Traditions-Hidden-in-the-Center-of-Seoul_/32678"
+  },
+  {
+    "id": "forest",
+    "scope": "solo",
+    "type": "sight",
+    "title": "首爾林",
+    "ko": "서울숲",
+    "area": "聖水",
+    "day": "11/2",
+    "status": "推薦候選・未排入",
+    "desc": "留一段公園散步時間，適合與聖水區域搭配考慮。",
+    "tip": "以戶外散步為主，部分室內設施週一休館；秋色依天氣與現場狀況。",
+    "address": "서울 성동구 뚝섬로 273",
+    "coord": [
+      37.5445,
+      127.0374
+    ],
+    "query": "서울숲",
+    "source": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=95429"
+  },
+  {
+    "id": "ikseon",
+    "scope": "solo",
+    "type": "sight",
+    "title": "益善洞韓屋街",
+    "ko": "익선동 한옥거리",
+    "area": "鐘路",
+    "day": "11/2",
+    "status": "推薦候選・未排入",
+    "desc": "韓屋巷弄、咖啡與餐館交錯，可作為慢慢走的街區。",
+    "tip": "先選喜歡的巷弄散步，再挑咖啡店；各店營業與座位狀況不同。",
+    "address": "서울 종로구 수표로28길 21-12 周邊",
+    "coord": [
+      37.5744,
+      126.9898
+    ],
+    "query": "익선동 한옥거리",
+    "source": "https://english.seoul.go.kr/ikseon-dong-hanok-street/"
+  },
+  {
+    "id": "mint-world",
+    "scope": "solo",
+    "type": "food",
+    "title": "MintChoco World 延南店",
+    "ko": "민트초코월드 연남점",
+    "area": "延南洞",
+    "day": "日期待定",
+    "status": "使用者想去・未排入",
+    "desc": "薄荷巧克力甜點候選，可與延南洞散步搭配考慮。",
+    "tip": "你提供的文章介紹薄荷提拉米蘇等甜點。實際供應、樓層與營業時間到訪前再確認。",
+    "address": "서울 마포구 성미산로29길 32",
+    "query": "민트초코월드 연남점",
+    "source": "https://lizzzstyle.tw/mintchoco-world/"
+  },
+  {
+    "id": "hongdae-pharmacy",
+    "scope": "group",
+    "type": "shopping",
+    "title": "弘大藥局",
+    "ko": "홍대 약국",
+    "area": "弘大",
+    "day": "日期待定",
+    "status": "團體逛街參考・分店待選",
+    "desc": "現場再向藥師詢問想買的品項。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 약국",
+    "areaCoord": [
+      37.556,
+      126.923
+    ]
+  },
+  {
+    "id": "hongdae-olive",
+    "scope": "group",
+    "type": "shopping",
+    "title": "OLIVE YOUNG",
+    "ko": "올리브영",
+    "area": "弘大",
+    "day": "日期待定",
+    "status": "團體逛街參考・分店待選",
+    "desc": "先記下想買的保養、美妝，分店與庫存到店前再確認。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 올리브영",
+    "areaCoord": [
+      37.556,
+      126.923
+    ]
+  },
+  {
+    "id": "hongdae-daiso",
+    "scope": "group",
+    "type": "shopping",
+    "title": "大創 DAISO",
+    "ko": "다이소",
+    "area": "弘大",
+    "day": "日期待定",
+    "status": "團體逛街參考・分店待選",
+    "desc": "日用品、小物購物名單，實際品項可記在購物清單。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 다이소",
+    "areaCoord": [
+      37.556,
+      126.923
+    ]
+  },
+  {
+    "id": "withmuu",
+    "type": "shopping",
+    "title": "WITHMUU・AK PLAZA 弘大",
+    "ko": "위드뮤 홍대 AK PLAZA",
+    "area": "弘大",
+    "desc": "你的 K-POP 專輯與周邊購物候選，對應圖片中的 AK PLAZA 專輯筆記。",
+    "tip": "官方店舖名單標示 AK PLAZA 2樓，已將原本「2樓或4樓」更新為2樓。專輯、周邊與現場活動依當日供應。",
+    "address": "서울 마포구 양화로 188 AK PLAZA 2층",
+    "coord": [
+      37.5574,
+      126.9271
+    ],
+    "query": "위드뮤 홍대 AK PLAZA",
+    "source": "https://litt.ly/withmuu",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "hotteok",
+    "type": "food",
+    "title": "糖餅",
+    "ko": "호떡",
+    "area": "攤位待選",
+    "desc": "你想吃的韓國街頭點心，先收進個人口袋名單。",
+    "tip": "尚未指定攤位，可在市場或逛街途中找喜歡的店；不預先承諾哪裡一定有。",
+    "address": "店家／攤位待選",
+    "query": "서울 호떡",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "bungeoppang",
+    "type": "food",
+    "title": "鯛魚燒・路邊小吃",
+    "ko": "붕어빵",
+    "area": "攤位待選",
+    "desc": "你的筆記：冬天路上想吃的鯛魚燒。",
+    "tip": "先保留想吃的項目；是否開攤、品項與季節供應依現場情況，不預設一定買得到。",
+    "address": "店家／攤位待選",
+    "query": "서울 붕어빵",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "solo-hongdae",
+    "type": "shopping",
+    "title": "弘大逛街",
+    "ko": "홍대",
+    "area": "弘大",
+    "desc": "你的個人逛街區域，與團體版本分開保留。",
+    "tip": "可與 AK PLAZA 的 WITHMUU 一起考慮，時間尚未排定。",
+    "address": "弘大商圈區域",
+    "coord": [
+      37.556,
+      126.923
+    ],
+    "query": "홍대",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "solo-seongsu",
+    "type": "shopping",
+    "title": "聖水洞逛街",
+    "ko": "성수동",
+    "area": "聖水",
+    "desc": "你的個人逛街候選，不等於10/31團體下午已定案。",
+    "tip": "若團體日已逛足，可在個人日改選其他區域。",
+    "address": "聖水洞商圈區域",
+    "coord": [
+      37.545,
+      127.055
+    ],
+    "query": "성수동",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "solo-yeonnam",
+    "type": "shopping",
+    "title": "延南洞逛街",
+    "ko": "연남동",
+    "area": "延南洞",
+    "desc": "個人散步、逛街的候選區域。",
+    "tip": "可與你想去的 MintChoco World 延南店搭配考慮。",
+    "address": "延南洞區域",
+    "coord": [
+      37.565,
+      126.924
+    ],
+    "query": "연남동",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "solo-myeongdong",
+    "type": "shopping",
+    "title": "明洞逛街",
+    "ko": "명동",
+    "area": "明洞",
+    "desc": "你的個人購物候選，日期未定。",
+    "tip": "你的筆記印象是「比較貴」；實際價格仍依店家與品項比較。",
+    "address": "明洞商圈區域",
+    "coord": [
+      37.563,
+      126.985
+    ],
+    "query": "명동",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "hangang-ramen",
+    "type": "food",
+    "title": "漢江吃泡麵",
+    "ko": "한강 라면",
+    "area": "漢江・園區待選",
+    "desc": "想在漢江邊吃泡麵，先保留為個人體驗候選。",
+    "tip": "漢江有不同園區，確定住宿與當天路線後再選便利商店及河濱位置。",
+    "address": "尚未選擇漢江園區與店家",
+    "query": "한강 라면",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "london-anguk",
+    "type": "food",
+    "title": "倫敦貝果博物館・安國店",
+    "ko": "런던베이글뮤지엄 안국점",
+    "area": "安國",
+    "desc": "對應你的「安國站 倫敦貝果」筆記。",
+    "tip": "先保留為個人早餐／點心候選，排隊與外帶方式到訪前再確認。",
+    "address": "서울 종로구 북촌로4길 20",
+    "coord": [
+      37.579,
+      126.986
+    ],
+    "query": "런던베이글뮤지엄 안국점",
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=191147",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  },
+  {
+    "id": "yozm",
+    "type": "food",
+    "title": "YOZM 優格",
+    "ko": "요즘 그릭요거트",
+    "area": "購買店家待選",
+    "desc": "你想吃／買的優格品牌，尚未指定門市。",
+    "tip": "品牌官網確認有希臘優格商品，先記品牌名；不要把品牌工廠或公司地址當首爾門市。",
+    "address": "購買店家或通路待確認",
+    "query": "서울 요즘 그릭요거트",
+    "source": "https://m.yozm.co.kr/",
+    "scope": "solo",
+    "day": "日期待定",
+    "status": "使用者想去・未排入"
+  }
+]

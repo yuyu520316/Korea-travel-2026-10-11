@@ -1,0 +1,11 @@
+{
+  "name": "yuhan-korea-travel-2026",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/check.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

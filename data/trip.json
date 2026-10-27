@@ -1,0 +1,401 @@
+{
+  "days": [
+    {
+      "date": "10/28",
+      "week": "三",
+      "short": "出發首爾",
+      "title": "晚一點抵達，一樣期待",
+      "sub": "TAOYUAN → INCHEON → SEOUL",
+      "notice": "你與大家不同班機。當晚不安排豬腳小姐晚餐與 TOUCH FIVE，會合視入境與交通時間而定。",
+      "events": [
+        {
+          "time": "15:40 → 19:15",
+          "title": "桃園 T1 → 仁川 T2",
+          "desc": "15:40 為台灣時間；19:15 為韓國時間。",
+          "group": "個人",
+          "place": "icn"
+        },
+        {
+          "time": "19:15 後",
+          "title": "入境、領行李",
+          "desc": "所需時間待現場狀況；交通方式尚待確認。",
+          "group": "個人",
+          "place": "icn"
+        },
+        {
+          "time": "時間待定",
+          "title": "前往弘大・入住與晚餐",
+          "desc": "暫按團體住宿區域規劃，飯店與會合地點待確認。記得買隔天早餐。",
+          "group": "個人",
+          "place": "hongdae"
+        }
+      ]
+    },
+    {
+      "date": "10/29",
+      "week": "四",
+      "short": "山海與夜秀",
+      "title": "山海一日，夜晚一起看秀",
+      "sub": "SEORAKSAN · SOKCHO · TOUCH FIVE",
+      "notice": "05:00 出發；山海行程與往返時間沿用團體原表，尚未核實車程。22:00 宵夜自由參加。",
+      "events": [
+        {
+          "time": "05:00–07:00",
+          "title": "從飯店出發",
+          "desc": "交通方式與集合地點待確認。",
+          "group": "團體",
+          "place": null
+        },
+        {
+          "time": "07:00–10:00",
+          "title": "雪嶽山",
+          "desc": "纜車與權金城路線已補上，點下方展開。原時段先保留，運行時間依官方當日公告。",
+          "group": "團體",
+          "place": "seorak"
+        },
+        {
+          "time": "10:00–12:00",
+          "title": "洛山寺",
+          "desc": "沿用原行程時段，需包含前往下一站的交通。",
+          "group": "團體",
+          "place": "naksan"
+        },
+        {
+          "time": "12:00–13:45",
+          "title": "束草中央市場",
+          "desc": "午餐與市場散策。",
+          "group": "團體",
+          "place": "market"
+        },
+        {
+          "time": "13:45–15:00",
+          "title": "束草海灘",
+          "desc": "海邊散步、拍照。",
+          "group": "團體",
+          "place": "beach"
+        },
+        {
+          "time": "15:00–17:00",
+          "title": "返回弘大",
+          "desc": "原定返程時段，實際到達依交通而定。",
+          "group": "團體",
+          "place": "hongdae"
+        },
+        {
+          "time": "17:00–18:30",
+          "title": "盥洗與化妝",
+          "desc": "與 tsuki、kino、力敏一起準備。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "18:30–22:00",
+          "title": "TOUCH FIVE",
+          "desc": "猛男團：tsuki、kino、力敏、郁涵。時段含移動與排隊；場館地址待確認。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "22:00–24:00",
+          "title": "弘大燒烤宵夜",
+          "desc": "自由參加；餐廳待決定。",
+          "group": "自由參加",
+          "place": "hongdae"
+        }
+      ]
+    },
+    {
+      "date": "10/30",
+      "week": "五",
+      "short": "韓服與古宮",
+      "title": "穿上韓服，走進首爾",
+      "sub": "MYEONGDONG · GYEONGBOKGUNG · BUKCHON",
+      "notice": "今天跟學弟妹團。搬飯店、寄放行李與韓服店地址待確認；北村參訪規定與交通尚待核實。",
+      "events": [
+        {
+          "time": "08:30–09:00",
+          "title": "弘大搬到明洞",
+          "desc": "飯店未確認；09:00–09:30 留作行李與集合緩衝。",
+          "group": "學弟妹團",
+          "place": "myeong"
+        },
+        {
+          "time": "09:30–10:00",
+          "title": "明洞前往景福宮",
+          "desc": "交通方式待確認。",
+          "group": "學弟妹團",
+          "place": "palace"
+        },
+        {
+          "time": "10:00–12:00",
+          "title": "土俗村蔘雞湯",
+          "desc": "原定用餐時段；營業與排隊情況尚待確認。",
+          "group": "學弟妹團",
+          "place": null
+        },
+        {
+          "time": "12:00–13:30",
+          "title": "韓服體驗",
+          "desc": "店家、預約與取還衣位置待確認。",
+          "group": "學弟妹團",
+          "place": null
+        },
+        {
+          "time": "13:30–15:10",
+          "title": "景福宮",
+          "desc": "穿韓服參觀與拍照。",
+          "group": "學弟妹團",
+          "place": "palace"
+        },
+        {
+          "time": "15:10–16:20",
+          "title": "北村韓屋村",
+          "desc": "沿用團體時段，實際可參訪範圍與時間待確認。",
+          "group": "學弟妹團",
+          "place": "bukchon"
+        },
+        {
+          "time": "16:20–17:00",
+          "title": "歸還韓服",
+          "desc": "預留回店交通與換裝時間。",
+          "group": "學弟妹團",
+          "place": null
+        },
+        {
+          "time": "17:00–22:00",
+          "title": "明洞逛街與晚餐",
+          "desc": "與學弟妹團一起，店家自由安排。",
+          "group": "學弟妹團",
+          "place": "myeong"
+        }
+      ]
+    },
+    {
+      "date": "10/31",
+      "week": "六",
+      "short": "逛街與萬聖夜",
+      "title": "白天逛街，晚上再集合",
+      "sub": "GANGNAM · SEONGSU / HANNAM · SHOW",
+      "notice": "18:00 與學姊團會合吃晚餐，20:00 看秀。下午是聖水洞／漢南洞擇一待定；不套用男生團的晚餐。",
+      "events": [
+        {
+          "time": "08:30–09:00",
+          "title": "前往江南化妝室",
+          "desc": "店家地址待確認，地圖僅顯示江南區域。",
+          "group": "團體",
+          "place": "gangnam"
+        },
+        {
+          "time": "09:00–11:00",
+          "title": "江南妝髮",
+          "desc": "預約細節待確認。",
+          "group": "團體",
+          "place": "gangnam"
+        },
+        {
+          "time": "11:30–13:30",
+          "title": "元祖馬山小鬍子家・醬蟹",
+          "desc": "依原表安排；店名對應地址待確認。",
+          "group": "團體",
+          "place": null
+        },
+        {
+          "time": "14:00–17:00",
+          "title": "聖水洞／漢南洞逛街",
+          "desc": "學弟妹團；區域尚未二選一，暫不標地點。",
+          "group": "學弟妹團",
+          "place": null
+        },
+        {
+          "time": "17:00–18:00",
+          "title": "前往晚餐會合地點",
+          "desc": "為你預留的移動時段，路線與所需時間待確認。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "18:00–19:00",
+          "title": "與學姊團會合吃晚餐",
+          "desc": "tsuki、kino、力敏、郁涵；餐廳待確認。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "19:00–20:00",
+          "title": "歪歪領票",
+          "desc": "沿用團體對場館的稱呼，正式場館名稱與地址待確認。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "20:00–22:00",
+          "title": "歪歪晚上場",
+          "desc": "與猛男團看秀。",
+          "group": "看秀",
+          "place": null
+        },
+        {
+          "time": "22:00–22:30",
+          "title": "萬聖節室外廣場拍照",
+          "desc": "全員集合；廣場位置待確認。",
+          "group": "團體",
+          "place": null
+        }
+      ]
+    },
+    {
+      "date": "11/1",
+      "week": "日",
+      "short": "和朋友見面",
+      "title": "把這一天，留給朋友",
+      "sub": "A DAY WITH FRIENDS",
+      "notice": "你的個人行程從今天開始，不跟學弟妹團搭機回台。朋友的城市、地點與見面時間尚待確認。",
+      "events": [
+        {
+          "time": "時間待定",
+          "title": "去找朋友",
+          "desc": "保留見面與相聚時間，暫不安排其他固定景點。",
+          "group": "個人",
+          "place": null
+        },
+        {
+          "time": "待確認",
+          "title": "今晚住哪裡？",
+          "desc": "住宿與跨區交通，等朋友行程確認後再銜接。",
+          "group": "待定",
+          "place": null
+        }
+      ]
+    },
+    {
+      "date": "11/2",
+      "week": "一",
+      "short": "自由留白",
+      "title": "沒有趕路的日子",
+      "sub": "YOUR OWN LITTLE SEOUL STORY",
+      "notice": "今天完整保留給個人安排。尚未決定的景點與餐廳不預先填入，也不套用學姊團的回程。",
+      "events": [
+        {
+          "time": "全天待規劃",
+          "title": "你的首爾自由日",
+          "desc": "想逛的街、想喝的咖啡、想看的風景，之後再一起安排。",
+          "group": "個人",
+          "place": null
+        },
+        {
+          "time": "晚間提醒",
+          "title": "整理行李，確認明天交通",
+          "desc": "11/3 09:30 前要到仁川機場；住宿與出發時間仍待確認。",
+          "group": "個人",
+          "place": null
+        }
+      ]
+    },
+    {
+      "date": "11/3",
+      "week": "二",
+      "short": "帶回回憶",
+      "title": "帶著回憶，回到日常",
+      "sub": "INCHEON → TAOYUAN",
+      "notice": "09:30 前到機場，是你指定的提前 3 小時。回程仁川航廈未確認，請依機票核對。",
+      "events": [
+        {
+          "time": "出發時間待定",
+          "title": "住宿 → 仁川機場",
+          "desc": "住宿與交通方式未定，先不估算離開飯店時間。",
+          "group": "個人",
+          "place": "icn"
+        },
+        {
+          "time": "09:30 前",
+          "title": "抵達仁川機場",
+          "desc": "起飛前 3 小時抵達；回程航廈待確認。",
+          "group": "個人",
+          "place": "icn"
+        },
+        {
+          "time": "09:30–12:30",
+          "title": "托運、出境與候機",
+          "desc": "請依航空公司規定留意登機與關櫃時間。",
+          "group": "個人",
+          "place": null
+        },
+        {
+          "time": "12:30 → 14:20",
+          "title": "仁川 ICN → 桃園 T1",
+          "desc": "12:30 韓國時間起飛；14:20 台灣時間抵達。",
+          "group": "個人",
+          "place": null
+        }
+      ]
+    }
+  ],
+  "areas": {
+    "hongdae": [
+      "弘大區域",
+      37.556,
+      126.923,
+      "Hongdae Seoul"
+    ],
+    "myeong": [
+      "明洞區域",
+      37.563,
+      126.985,
+      "Myeongdong Seoul"
+    ],
+    "seorak": [
+      "雪嶽山國立公園周邊",
+      38.173,
+      128.489,
+      "Seoraksan National Park"
+    ],
+    "naksan": [
+      "洛山寺周邊",
+      38.125,
+      128.628,
+      "Naksansa Temple"
+    ],
+    "market": [
+      "束草中央市場周邊",
+      38.204,
+      128.591,
+      "Sokcho Tourist Fish Market"
+    ],
+    "beach": [
+      "束草海灘周邊",
+      38.19,
+      128.601,
+      "Sokcho Beach"
+    ],
+    "palace": [
+      "景福宮周邊",
+      37.579,
+      126.977,
+      "Gyeongbokgung Palace Seoul"
+    ],
+    "bukchon": [
+      "北村韓屋村周邊",
+      37.582,
+      126.984,
+      "Bukchon Hanok Village"
+    ],
+    "seongsu": [
+      "聖水洞區域",
+      37.545,
+      127.055,
+      "Seongsu dong Seoul"
+    ],
+    "gangnam": [
+      "江南區域",
+      37.498,
+      127.028,
+      "Gangnam Seoul"
+    ],
+    "icn": [
+      "仁川機場區域",
+      37.46,
+      126.441,
+      "Incheon International Airport"
+    ]
+  }
+}
