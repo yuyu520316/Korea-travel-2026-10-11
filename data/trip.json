@@ -4,30 +4,73 @@
       "date": "10/28",
       "week": "三",
       "short": "出發首爾",
-      "title": "晚一點抵達，一樣期待",
-      "sub": "TAOYUAN → INCHEON → SEOUL",
-      "notice": "你與大家不同班機。當晚不安排豬腳小姐晚餐與 TOUCH FIVE，會合視入境與交通時間而定。",
+      "title": "一起抵達，展開首爾旅程",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 記得買好隔天早餐。此處為大家的 10/28 行程；郁涵原訂 CI161 另見個人備註。",
       "events": [
         {
-          "time": "15:40 → 19:15",
-          "title": "CI161・桃園 T1 → 仁川 T2",
-          "desc": "15:40 台灣時間起飛，19:15 韓國時間抵達。去程已劃位 41K。",
-          "group": "個人",
-          "place": "icn"
+          "time": "08:00–11:05",
+          "title": "桃園機場 T2 八點集合＋托運＋出關",
+          "desc": "",
+          "group": "全員",
+          "place": "tpe",
+          "naverQuery": "타오위안 국제공항 제2터미널"
         },
         {
-          "time": "19:15 後",
-          "title": "入境、領行李",
-          "desc": "所需時間待現場狀況；交通方式尚待確認。",
-          "group": "個人",
-          "place": "icn"
+          "time": "11:05–14:40",
+          "title": "飛機往仁川 T2",
+          "desc": "",
+          "group": "全員",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
         },
         {
-          "time": "時間待定",
-          "title": "前往弘大・入住與晚餐",
-          "desc": "暫按團體住宿區域規劃，飯店與會合地點待確認。記得買隔天早餐。",
-          "group": "個人",
-          "place": "hongdae"
+          "time": "14:40–15:10",
+          "title": "韓國入境＋辦 EXE",
+          "desc": "EXE 沿用原表名稱，辦理內容待確認。",
+          "group": "全員",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
+        },
+        {
+          "time": "15:10–16:10",
+          "title": "仁川到弘大",
+          "desc": "",
+          "group": "全員",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
+        },
+        {
+          "time": "16:10–17:00",
+          "title": "旅館 CHECK IN＋換錢",
+          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "group": "全員",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
+        },
+        {
+          "time": "17:00–19:00",
+          "title": "晚餐：豬腳小姐",
+          "desc": "",
+          "group": "全員",
+          "place": "jokbal",
+          "naverQuery": "미쓰족발 홍대"
+        },
+        {
+          "time": "18:30–22:00",
+          "title": "TOUCH FIVE（移動＋排隊）",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "touch",
+          "naverQuery": "TOUCH FIVE 서울"
+        },
+        {
+          "time": "19:00–22:00",
+          "title": "弘大逛街（藥局＋OLIVE YOUNG＋大創）",
+          "desc": "",
+          "group": "全員",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
         }
       ]
     },
@@ -35,72 +78,89 @@
       "date": "10/29",
       "week": "四",
       "short": "山海與夜秀",
-      "title": "山海一日，夜晚一起看秀",
-      "sub": "SEORAKSAN · SOKCHO · TOUCH FIVE",
-      "notice": "05:00 出發；山海行程與往返時間沿用團體原表，尚未核實車程。22:00 宵夜自由參加。",
+      "title": "雪嶽山、束草與分組夜生活",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。",
       "events": [
         {
           "time": "05:00–07:00",
           "title": "從飯店出發",
-          "desc": "交通方式與集合地點待確認。",
-          "group": "團體",
-          "place": null
+          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "group": "全員",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
         },
         {
           "time": "07:00–10:00",
-          "title": "雪嶽山",
-          "desc": "纜車與權金城路線已補上，點下方展開。原時段先保留，運行時間依官方當日公告。",
-          "group": "團體",
-          "place": "seorak"
+          "title": "雪嶽山 3hr",
+          "desc": "",
+          "group": "全員",
+          "place": "seorak",
+          "naverQuery": "Seoraksan National Park"
         },
         {
           "time": "10:00–12:00",
           "title": "洛山寺",
-          "desc": "沿用原行程時段，需包含前往下一站的交通。",
-          "group": "團體",
-          "place": "naksan"
+          "desc": "",
+          "group": "全員",
+          "place": "naksan",
+          "naverQuery": "Naksansa Temple"
         },
         {
           "time": "12:00–13:45",
           "title": "束草中央市場",
-          "desc": "午餐與市場散策。",
-          "group": "團體",
-          "place": "market"
+          "desc": "",
+          "group": "全員",
+          "place": "market",
+          "naverQuery": "Sokcho Tourist Fish Market"
         },
         {
           "time": "13:45–15:00",
           "title": "束草海灘",
-          "desc": "海邊散步、拍照。",
-          "group": "團體",
-          "place": "beach"
+          "desc": "",
+          "group": "全員",
+          "place": "beach",
+          "naverQuery": "Sokcho Beach"
         },
         {
           "time": "15:00–17:00",
-          "title": "返回弘大",
-          "desc": "原定返程時段，實際到達依交通而定。",
-          "group": "團體",
-          "place": "hongdae"
+          "title": "返程弘大",
+          "desc": "",
+          "group": "全員",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
         },
         {
           "time": "17:00–18:30",
-          "title": "盥洗與化妝",
-          "desc": "與 tsuki、kino、力敏一起準備。",
-          "group": "看秀",
-          "place": null
+          "title": "盥洗化妝",
+          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "group": "猛男團",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
         },
         {
           "time": "18:30–22:00",
           "title": "TOUCH FIVE",
-          "desc": "猛男團：tsuki、kino、力敏、郁涵。時段含移動與排隊；場館地址待確認。",
-          "group": "看秀",
-          "place": null
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "猛男團",
+          "place": "touch",
+          "naverQuery": "TOUCH FIVE 서울"
+        },
+        {
+          "time": "17:00–22:00",
+          "title": "東大門逛街＋晚餐",
+          "desc": "",
+          "group": "男生團",
+          "place": "dongdaemun",
+          "naverQuery": "동대문"
         },
         {
           "time": "22:00–24:00",
           "title": "弘大燒烤宵夜",
-          "desc": "自由參加；餐廳待決定。",
+          "desc": "餐廳待決定，地圖先提供所在區域。",
           "group": "自由參加",
-          "place": "hongdae"
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
         }
       ]
     },
@@ -108,186 +168,416 @@
       "date": "10/30",
       "week": "五",
       "short": "韓服與古宮",
-      "title": "穿上韓服，走進首爾",
-      "sub": "MYEONGDONG · GYEONGBOKGUNG · BUKCHON",
-      "notice": "今天跟學弟妹團。搬飯店、寄放行李與韓服店地址待確認；北村參訪規定與交通尚待核實。",
+      "title": "古宮散策與學姊團看秀",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。",
       "events": [
         {
           "time": "08:30–09:00",
-          "title": "弘大搬到明洞",
-          "desc": "飯店未確認；09:00–09:30 留作行李與集合緩衝。",
-          "group": "學弟妹團",
-          "place": "myeong"
+          "title": "弘大搬明洞",
+          "desc": "",
+          "group": "全員",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
         },
         {
           "time": "09:30–10:00",
-          "title": "明洞前往景福宮",
-          "desc": "交通方式待確認。",
-          "group": "學弟妹團",
-          "place": "palace"
+          "title": "明洞去景福宮",
+          "desc": "",
+          "group": "全員",
+          "place": "palace",
+          "naverQuery": "Gyeongbokgung Palace Seoul"
         },
         {
           "time": "10:00–12:00",
           "title": "土俗村蔘雞湯",
-          "desc": "原定用餐時段；營業與排隊情況尚待確認。",
-          "group": "學弟妹團",
-          "place": null
+          "desc": "",
+          "group": "全員",
+          "place": "tosok",
+          "naverQuery": "토속촌삼계탕"
         },
         {
           "time": "12:00–13:30",
           "title": "韓服體驗",
-          "desc": "店家、預約與取還衣位置待確認。",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
           "group": "學弟妹團",
-          "place": null
+          "place": "hanbok",
+          "naverQuery": "경복궁 한복대여"
         },
         {
           "time": "13:30–15:10",
           "title": "景福宮",
-          "desc": "穿韓服參觀與拍照。",
+          "desc": "",
           "group": "學弟妹團",
-          "place": "palace"
+          "place": "palace",
+          "naverQuery": "Gyeongbokgung Palace Seoul"
         },
         {
           "time": "15:10–16:20",
           "title": "北村韓屋村",
-          "desc": "沿用團體時段，實際可參訪範圍與時間待確認。",
+          "desc": "",
           "group": "學弟妹團",
-          "place": "bukchon"
+          "place": "bukchon",
+          "naverQuery": "Bukchon Hanok Village"
         },
         {
           "time": "16:20–17:00",
           "title": "歸還韓服",
-          "desc": "預留回店交通與換裝時間。",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
           "group": "學弟妹團",
-          "place": null
+          "place": "hanbok",
+          "naverQuery": "경복궁 한복대여"
         },
         {
           "time": "17:00–22:00",
-          "title": "明洞逛街與晚餐",
-          "desc": "與學弟妹團一起，店家自由安排。",
+          "title": "明洞逛街＋晚餐",
+          "desc": "",
           "group": "學弟妹團",
-          "place": "myeong"
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
+        },
+        {
+          "time": "13:00–15:00",
+          "title": "盥洗化妝",
+          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "group": "學姊團",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
+        },
+        {
+          "time": "15:00–16:00",
+          "title": "歪歪領票",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "16:00–18:00",
+          "title": "歪歪下午場",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "18:00–19:00",
+          "title": "晚餐",
+          "desc": "餐廳待決定，地圖先提供所在區域。",
+          "group": "學姊團",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
+        },
+        {
+          "time": "19:00–20:00",
+          "title": "歪歪領票",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "20:00–22:00",
+          "title": "歪歪晚上場",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
         }
       ]
     },
     {
       "date": "10/31",
       "week": "六",
-      "short": "逛街與萬聖夜",
-      "title": "白天逛街，晚上再集合",
-      "sub": "GANGNAM · SEONGSU / HANNAM · SHOW",
-      "notice": "18:00 與學姊團會合吃晚餐，20:00 看秀。下午是聖水洞／漢南洞擇一待定；不套用男生團的晚餐。",
+      "short": "萬聖節之夜",
+      "title": "江南妝髮、分組逛街與萬聖夜",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 學弟妹團萬聖節活動與猛男團晚場有重疊，力敏、郁涵依參與場次會合。",
       "events": [
         {
           "time": "08:30–09:00",
-          "title": "前往江南化妝室",
-          "desc": "店家地址待確認，地圖僅顯示江南區域。",
-          "group": "團體",
-          "place": "gangnam"
+          "title": "出發去江南化妝室",
+          "desc": "",
+          "group": "全員",
+          "place": "gangnam",
+          "naverQuery": "Gangnam Seoul"
         },
         {
           "time": "09:00–11:00",
           "title": "江南妝髮",
-          "desc": "預約細節待確認。",
-          "group": "團體",
-          "place": "gangnam"
+          "desc": "",
+          "group": "全員",
+          "place": "gangnam",
+          "naverQuery": "Gangnam Seoul"
         },
         {
           "time": "11:30–13:30",
-          "title": "元祖馬山小鬍子家・醬蟹",
-          "desc": "依原表安排；店名對應地址待確認。",
-          "group": "團體",
-          "place": null
+          "title": "元祖馬山小鬍子家（醬蟹）",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "全員",
+          "place": "crab",
+          "naverQuery": "원조마산아구찜 간장게장"
         },
         {
           "time": "14:00–17:00",
           "title": "聖水洞／漢南洞逛街",
-          "desc": "學弟妹團；區域尚未二選一，暫不標地點。",
+          "desc": "聖水洞／漢南洞擇一，尚待決定；兩區皆附 NAVER Map。",
           "group": "學弟妹團",
-          "place": null
+          "place": "seongsu",
+          "naverQuery": "Seongsu dong Seoul",
+          "mapOptions": [
+            "seongsu",
+            "hannam"
+          ]
         },
         {
-          "time": "17:00–18:00",
-          "title": "前往晚餐會合地點",
-          "desc": "為你預留的移動時段，路線與所需時間待確認。",
-          "group": "看秀",
-          "place": null
+          "time": "17:00–19:00",
+          "title": "聖水洞晚餐",
+          "desc": "餐廳待決定，地圖先提供所在區域。",
+          "group": "男生團",
+          "place": "seongsu",
+          "naverQuery": "Seongsu dong Seoul"
+        },
+        {
+          "time": "19:00–21:30",
+          "title": "江南 OR 漢江 OR 弘大萬聖節限定活動",
+          "desc": "活動與地點尚待決定；江南、漢江、弘大皆附 NAVER Map。",
+          "group": "學弟妹團",
+          "place": "gangnam",
+          "naverQuery": "Gangnam Seoul",
+          "mapOptions": [
+            "gangnam",
+            "hangang",
+            "hongdae"
+          ]
+        },
+        {
+          "time": "13:30–14:00",
+          "title": "交通回明洞",
+          "desc": "",
+          "group": "學姊團",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
+        },
+        {
+          "time": "15:00–16:00",
+          "title": "歪歪領票",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "16:00–18:00",
+          "title": "歪歪下午場",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
         },
         {
           "time": "18:00–19:00",
-          "title": "與學姊團會合吃晚餐",
-          "desc": "tsuki、kino、力敏、郁涵；餐廳待確認。",
-          "group": "看秀",
-          "place": null
+          "title": "晚餐",
+          "desc": "餐廳待決定，地圖先提供所在區域。",
+          "group": "猛男團",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
         },
         {
           "time": "19:00–20:00",
           "title": "歪歪領票",
-          "desc": "沿用團體對場館的稱呼，正式場館名稱與地址待確認。",
-          "group": "看秀",
-          "place": null
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "猛男團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
         },
         {
           "time": "20:00–22:00",
           "title": "歪歪晚上場",
-          "desc": "與猛男團看秀。",
-          "group": "看秀",
-          "place": null
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "猛男團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
         },
         {
           "time": "22:00–22:30",
-          "title": "萬聖節室外廣場拍照",
-          "desc": "全員集合；廣場位置待確認。",
-          "group": "團體",
-          "place": null
+          "title": "萬聖節歪歪室外廣場拍照",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "ALL",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
         }
       ]
     },
     {
-      "date": "11/1",
+      "date": "11/01",
       "week": "日",
-      "short": "和朋友見面",
-      "title": "把這一天，留給朋友",
-      "sub": "A DAY WITH FRIENDS",
-      "notice": "今天保留給朋友，見面時間與地點待確認。11/1–11/3 住 L YOUNG Inn，費用 NT$2,253／₩90,000 已確認。",
+      "short": "分組返程與看秀",
+      "title": "學弟妹團返台，學姊團繼續首爾",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 此為團體回程；郁涵原訂 11/3 回程保留在個人備註與第 7 天。",
       "events": [
         {
-          "time": "時間待定",
-          "title": "去找朋友",
-          "desc": "保留見面與相聚時間，暫不安排其他固定景點。",
-          "group": "個人",
-          "place": null
+          "time": "04:00–05:00",
+          "title": "包車前往仁川機場",
+          "desc": "",
+          "group": "學弟妹團",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
         },
         {
-          "time": "待確認",
-          "title": "入住 L YOUNG Inn",
-          "desc": "11/1–11/3 住宿已確認。你提供的接待地址：首爾市中區忠武路8號1樓與2樓。",
-          "group": "個人",
-          "place": null
+          "time": "05:00–08:00",
+          "title": "仁川機場 T2 托運＋出關",
+          "desc": "",
+          "group": "學弟妹團",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
+        },
+        {
+          "time": "08:00–09:50",
+          "title": "飛機往桃園機場 T2",
+          "desc": "",
+          "group": "學弟妹團",
+          "place": "tpe",
+          "naverQuery": "타오위안 국제공항 제2터미널"
+        },
+        {
+          "time": "09:00–10:00",
+          "title": "起床去醫美",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "clinic",
+          "naverQuery": "서울 피부과"
+        },
+        {
+          "time": "10:00–13:00",
+          "title": "醫美",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "clinic",
+          "naverQuery": "서울 피부과"
+        },
+        {
+          "time": "13:00–13:30",
+          "title": "交通去 hunky",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "hunky",
+          "naverQuery": "HUNKY 서울"
+        },
+        {
+          "time": "13:30–14:30",
+          "title": "午餐",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "hunky",
+          "naverQuery": "HUNKY 서울"
+        },
+        {
+          "time": "14:30–15:00",
+          "title": "hunky 領票",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "hunky",
+          "naverQuery": "HUNKY 서울"
+        },
+        {
+          "time": "15:00–16:30",
+          "title": "hunky 下午場",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "hunky",
+          "naverQuery": "HUNKY 서울"
+        },
+        {
+          "time": "16:30–17:00",
+          "title": "交通回歪歪",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "17:00–18:00",
+          "title": "晚餐",
+          "desc": "餐廳待決定，地圖先提供所在區域。",
+          "group": "學姊團",
+          "place": "myeong",
+          "naverQuery": "Myeongdong Seoul"
+        },
+        {
+          "time": "18:00–19:00",
+          "title": "歪歪領票",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "19:00–21:00",
+          "title": "歪歪晚上場",
+          "desc": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+          "group": "學姊團",
+          "place": "show",
+          "naverQuery": "歪歪 서울"
+        },
+        {
+          "time": "21:00–23:00",
+          "title": "取行李去仁川機場",
+          "desc": "",
+          "group": "學姊團",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
         }
       ]
     },
     {
-      "date": "11/2",
+      "date": "11/02",
       "week": "一",
-      "short": "自由留白",
-      "title": "沒有趕路的日子",
-      "sub": "YOUR OWN LITTLE SEOUL STORY",
-      "notice": "今天完整保留給個人安排。尚未決定的景點與餐廳不預先填入，也不套用學姊團的回程。",
+      "short": "學姊團返程",
+      "title": "機場休息，帶著回憶回台灣",
+      "sub": "SEOUL · GROUP ITINERARY",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 第一項為 11/01 23:00 至 11/02 05:00，跨日共 6 小時。",
       "events": [
         {
-          "time": "全天待規劃",
-          "title": "你的首爾自由日",
-          "desc": "想逛的街、想喝的咖啡、想看的風景，之後再一起安排。",
-          "group": "個人",
-          "place": null
+          "time": "23:00–05:00",
+          "title": "仁川機場找地方休息（6hr）",
+          "desc": "跨日：11/01 23:00 → 11/02 05:00，共 6 小時。",
+          "group": "學姊團",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
         },
         {
-          "time": "晚間提醒",
-          "title": "整理行李，確認明天交通",
-          "desc": "11/3 09:30 前要到仁川機場；住宿與出發時間仍待確認。",
-          "group": "個人",
-          "place": null
+          "time": "05:00–08:00",
+          "title": "仁川機場 T2 托運＋出關",
+          "desc": "",
+          "group": "學姊團",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
+        },
+        {
+          "time": "08:00–09:50",
+          "title": "飛機往桃園機場 T2",
+          "desc": "",
+          "group": "學姊團",
+          "place": "tpe",
+          "naverQuery": "타오위안 국제공항 제2터미널"
+        },
+        {
+          "time": "09:50–10:20",
+          "title": "入關＋取行李",
+          "desc": "",
+          "group": "學姊團",
+          "place": "tpe",
+          "naverQuery": "타오위안 국제공항 제2터미널"
+        },
+        {
+          "time": "10:20–12:20",
+          "title": "回台北＋進公司",
+          "desc": "",
+          "group": "學姊團",
+          "place": "taipei",
+          "naverQuery": "타이베이"
         }
       ]
     },
@@ -297,35 +587,39 @@
       "short": "帶回回憶",
       "title": "帶著回憶，回到日常",
       "sub": "INCHEON → TAOYUAN",
-      "notice": "09:30 前到機場，是你指定的提前 3 小時。回程仁川航廈未確認，請依機票核對。",
+      "notice": "郁涵個人原訂回程：09:30 前到機場，是你指定的提前 3 小時。回程仁川航廈未確認，請依機票核對。",
       "events": [
         {
           "time": "出發時間待定",
           "title": "住宿 → 仁川機場",
           "desc": "住宿與交通方式未定，先不估算離開飯店時間。",
           "group": "個人",
-          "place": "icn"
+          "place": "icn",
+          "naverQuery": "인천국제공항"
         },
         {
           "time": "09:30 前",
           "title": "抵達仁川機場",
           "desc": "起飛前 3 小時抵達；回程航廈待確認。",
           "group": "個人",
-          "place": "icn"
+          "place": "icn",
+          "naverQuery": "인천국제공항"
         },
         {
           "time": "09:30–12:30",
           "title": "托運、出境與候機",
           "desc": "請依航空公司規定留意登機與關櫃時間。",
           "group": "個人",
-          "place": null
+          "place": null,
+          "naverQuery": "인천국제공항"
         },
         {
           "time": "12:30 → 14:20",
           "title": "CI162・仁川 ICN → 桃園 T1",
           "desc": "12:30 韓國時間起飛，14:20 台灣時間抵達；回程座位待確認。",
           "group": "個人",
-          "place": null
+          "place": null,
+          "naverQuery": "타오위안 국제공항 제1터미널"
         }
       ]
     }
@@ -392,10 +686,222 @@
       "Gangnam Seoul"
     ],
     "icn": [
-      "仁川機場區域",
-      37.46,
-      126.441,
-      "Incheon International Airport"
+      "仁川機場第二航廈",
+      37.469,
+      126.433,
+      "인천국제공항 제2여객터미널"
+    ],
+    "tpe": [
+      "桃園機場第二航廈",
+      25.077,
+      121.233,
+      "타오위안 국제공항 제2터미널"
+    ],
+    "jokbal": [
+      "豬腳小姐（店家／分店待確認）",
+      37.556,
+      126.923,
+      "미쓰족발 홍대"
+    ],
+    "touch": [
+      "TOUCH FIVE（正式場館地址待確認）",
+      null,
+      null,
+      "TOUCH FIVE 서울"
+    ],
+    "dongdaemun": [
+      "東大門區域",
+      37.571,
+      127.01,
+      "동대문"
+    ],
+    "tosok": [
+      "土俗村蔘雞湯",
+      37.577,
+      126.972,
+      "토속촌삼계탕"
+    ],
+    "hanbok": [
+      "景福宮韓服店搜尋（店家待確認）",
+      37.579,
+      126.977,
+      "경복궁 한복대여"
+    ],
+    "show": [
+      "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+      null,
+      null,
+      "歪歪 서울"
+    ],
+    "crab": [
+      "元祖馬山小鬍子家（店家地址待確認）",
+      null,
+      null,
+      "원조마산아구찜 간장게장"
+    ],
+    "clinic": [
+      "首爾醫美搜尋（診所地址待確認）",
+      null,
+      null,
+      "서울 피부과"
+    ],
+    "hunky": [
+      "hunky（正式場館地址待確認）",
+      null,
+      null,
+      "HUNKY 서울"
+    ],
+    "taipei": [
+      "台北區域（公司地址未提供）",
+      25.033,
+      121.565,
+      "타이베이"
+    ],
+    "hannam": [
+      "漢南洞區域",
+      37.534,
+      127.003,
+      "한남동"
+    ],
+    "hangang": [
+      "漢江區域（公園待選）",
+      37.528,
+      126.934,
+      "한강공원"
     ]
-  }
+  },
+  "groups": [
+    {
+      "title": "分組 1",
+      "teams": [
+        {
+          "name": "猛男團",
+          "members": [
+            "tsuki",
+            "kino",
+            "力敏",
+            "郁涵"
+          ]
+        },
+        {
+          "name": "男生團",
+          "members": [
+            "紅仰",
+            "俊翔",
+            "墓程"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "分組 2",
+      "teams": [
+        {
+          "name": "學姊團",
+          "members": [
+            "tsuki",
+            "kino"
+          ]
+        },
+        {
+          "name": "學弟妹團",
+          "members": [
+            "紅仰",
+            "俊翔",
+            "墓程",
+            "力敏",
+            "郁涵"
+          ]
+        }
+      ]
+    }
+  ],
+  "personalDays": [
+    {
+      "date": "10/28",
+      "week": "三",
+      "short": "出發首爾",
+      "title": "晚一點抵達，一樣期待",
+      "sub": "TAOYUAN → INCHEON → SEOUL",
+      "notice": "你與大家不同班機。當晚不安排豬腳小姐晚餐與 TOUCH FIVE，會合視入境與交通時間而定。",
+      "events": [
+        {
+          "time": "15:40 → 19:15",
+          "title": "CI161・桃園 T1 → 仁川 T2",
+          "desc": "15:40 台灣時間起飛，19:15 韓國時間抵達。去程已劃位 41K。",
+          "group": "個人",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
+        },
+        {
+          "time": "19:15 後",
+          "title": "入境、領行李",
+          "desc": "所需時間待現場狀況；交通方式尚待確認。",
+          "group": "個人",
+          "place": "icn",
+          "naverQuery": "인천국제공항 제2여객터미널"
+        },
+        {
+          "time": "時間待定",
+          "title": "前往弘大・入住與晚餐",
+          "desc": "暫按團體住宿區域規劃，飯店與會合地點待確認。記得買隔天早餐。",
+          "group": "個人",
+          "place": "hongdae",
+          "naverQuery": "Hongdae Seoul"
+        }
+      ]
+    },
+    {
+      "date": "11/1",
+      "week": "日",
+      "short": "和朋友見面",
+      "title": "把這一天，留給朋友",
+      "sub": "A DAY WITH FRIENDS",
+      "notice": "今天保留給朋友，見面時間與地點待確認。11/1–11/3 住 L YOUNG Inn，費用 NT$2,253／₩90,000 已確認。",
+      "events": [
+        {
+          "time": "時間待定",
+          "title": "去找朋友",
+          "desc": "保留見面與相聚時間，暫不安排其他固定景點。",
+          "group": "個人",
+          "place": null,
+          "naverQuery": "서울"
+        },
+        {
+          "time": "待確認",
+          "title": "入住 L YOUNG Inn",
+          "desc": "11/1–11/3 住宿已確認。你提供的接待地址：首爾市中區忠武路8號1樓與2樓。",
+          "group": "個人",
+          "place": null,
+          "naverQuery": "L YOUNG Inn 명동"
+        }
+      ]
+    },
+    {
+      "date": "11/2",
+      "week": "一",
+      "short": "自由留白",
+      "title": "沒有趕路的日子",
+      "sub": "YOUR OWN LITTLE SEOUL STORY",
+      "notice": "今天完整保留給個人安排。尚未決定的景點與餐廳不預先填入，也不套用學姊團的回程。",
+      "events": [
+        {
+          "time": "全天待規劃",
+          "title": "你的首爾自由日",
+          "desc": "想逛的街、想喝的咖啡、想看的風景，之後再一起安排。",
+          "group": "個人",
+          "place": null,
+          "naverQuery": "서울"
+        },
+        {
+          "time": "晚間提醒",
+          "title": "整理行李，確認明天交通",
+          "desc": "11/3 09:30 前要到仁川機場；住宿與出發時間仍待確認。",
+          "group": "個人",
+          "place": null,
+          "naverQuery": "서울"
+        }
+      ]
+    }
+  ]
 }

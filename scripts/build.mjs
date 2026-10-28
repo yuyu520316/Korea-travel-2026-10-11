@@ -13,7 +13,7 @@ let main = await readFile(path.join(root, 'site/index.html'), 'utf8');
 const begin = main.indexOf('const E=');
 const end = main.indexOf('let day=', begin);
 if (begin < 0 || end < 0) throw new Error('Cannot locate itinerary data in site/index.html');
-main = main.slice(0, begin) + `const P=${safe(trip.areas)};\nconst D=${safe(trip.days)};\n` + main.slice(end);
+main = main.slice(0, begin) + `const P=${safe(trip.areas)};\nconst D=${safe(trip.days)};\nconst G=${safe(trip.groups)};\nconst PERSONAL=${safe(trip.personalDays)};\n` + main.slice(end);
 await writeFile(path.join(root, 'dist/index.html'), main);
 let guide = await readFile(path.join(root, 'site/guide.js'), 'utf8');
 const dataStart = guide.indexOf('const spots=');
@@ -25,3 +25,4 @@ await writeFile(path.join(root, 'dist/guide.js'), guide);
 await writeFile(path.join(root, 'dist/404.html'), '<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><title>找不到這一頁</title><p>這一頁不存在。<a href="./index.html">回到首爾行程</a></p></html>');
 await writeFile(path.join(root, 'dist/.nojekyll'), '');
 console.log(`Built ${trip.days.length} days and ${places.length} guide places into dist/.`);
+

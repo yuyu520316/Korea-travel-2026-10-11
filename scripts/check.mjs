@@ -40,3 +40,34 @@ assert(places.filter(p=>p.area === '束草中央市場' && p.ingredients?.length
 const returnDay = trip.days.find(day => day.date === '11/3');
 assert(returnDay.events.some(event => event.time.includes('09:30')), 'Arrive at ICN by 09:30');
 console.log('Data, scripts, navigation, layout guard, and return-flight checks passed.');
+
+// The supplied parallel routes must remain complete and in their original order.
+assert.deepEqual(trip.days.slice(0, 6).map(d => d.events.length), [8, 10, 14, 13, 14, 5]);
+assert.deepEqual(trip.groups.map(g => g.teams.map(t => t.name)), [['猛男團', '男生團'], ['學姊團', '學弟妹團']]);
+assert.equal(trip.days[2].events[8].time, '13:00–15:00', 'Keep the sister route after the junior route, without globally sorting times');
+assert.equal(trip.days[5].events[0].time, '23:00–05:00');
+assert(trip.days[5].events[0].desc.includes('11/01'), 'Explain the overnight date');
+for (const d of [...trip.days, ...trip.personalDays]) for (const e of d.events) {
+  assert(e.naverQuery?.trim(), `Missing NAVER search for ${d.date}: ${e.title}`);
+  for (const key of e.mapOptions || []) assert(trip.areas[key], `Unknown alternative map ${key}`);
+}
+// Exercise map generation and day rendering for every event without external map access.
+const elements = new Map();
+const stub = () => ({innerHTML:'', style:{}, value:'', dataset:{}, children:[],
+  addEventListener(){}, setAttribute(){}, append(child){this.children.push(child)},
+  replaceChildren(){this.children=[]}, querySelectorAll(){return []},
+  querySelector(){return {focus(){}}}});
+const document = {getElementById(id){if(!elements.has(id)) elements.set(id,stub());return elements.get(id)},
+  createElement:stub, querySelectorAll(){return []}};
+const context = vm.createContext({document,localStorage:{getItem(){return null},setItem(){}},Intl,Date,encodeURIComponent});
+vm.runInContext(main.match(/<script>([\s\S]*?)<\/script>/)[1], context);
+for (let d = 0; d < trip.days.length; d++) {
+  vm.runInContext(`day=${d};render()`, context);
+  assert.equal((elements.get('timeline').innerHTML.match(/class="event-maps"/g)||[]).length,trip.days[d].events.length);
+  for (let e = 0; e < trip.days[d].events.length; e++) {
+    vm.runInContext(`showMap(${e})`, context);
+    assert.equal(new URL(elements.get('map-link').href).hostname, 'map.naver.com');
+    assert.equal(elements.get('map-link').hidden, false);
+  }
+}
+console.log('All group routes, personal plans, overnight timing, day rendering, and NAVER links passed.');
