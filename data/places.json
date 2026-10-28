@@ -7,11 +7,146 @@
     "ko": "店家分店待確認",
     "area": "弘大",
     "day": "10/28",
-    "status": "團體原表・你不參加",
-    "desc": "大家原定 17:00–19:00 用餐，你 19:15 才抵達仁川，不安排你加入這餐。",
-    "tip": "保留為團體參考；你當晚的晚餐等入境與交通確定後再安排。",
+    "status": "全員・分店待確認",
+    "desc": "17:00–19:00 團體晚餐：豬腳小姐。",
+    "tip": "分店與地址待確認。郁涵原訂個人班機晚間抵達，參與依抵達時間安排。",
     "address": "待確認分店與地址",
-    "query": "豬腳小姐 弘大"
+    "query": "豬腳小姐 弘大",
+    "time": "17:00–19:00",
+    "scheduleOrder": 50,
+    "group": "全員"
+  },
+  {
+    "id": "touch-five-1028",
+    "scope": "group",
+    "type": "sight",
+    "title": "TOUCH FIVE（移動＋排隊）",
+    "ko": "TOUCH FIVE 서울",
+    "area": "TOUCH FIVE（正式場館地址待確認）",
+    "day": "10/28",
+    "time": "18:30–22:00",
+    "scheduleOrder": 60,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "18:30–22:00 TOUCH FIVE（移動＋排隊）（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "TOUCH FIVE（正式場館地址待確認）",
+    "query": "TOUCH FIVE 서울"
+  },
+  {
+    "id": "hongdae-pharmacy",
+    "scope": "group",
+    "type": "shopping",
+    "title": "弘大藥局",
+    "ko": "홍대 약국",
+    "area": "弘大",
+    "day": "10/28",
+    "status": "團體逛街參考・分店待選",
+    "desc": "現場再向藥師詢問想買的品項。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 약국",
+    "areaCoord": [
+      37.556,
+      126.923
+    ],
+    "time": "19:00–22:00",
+    "scheduleOrder": 70,
+    "group": "全員"
+  },
+  {
+    "id": "hongdae-olive",
+    "scope": "group",
+    "type": "shopping",
+    "title": "OLIVE YOUNG",
+    "ko": "올리브영",
+    "area": "弘大",
+    "day": "10/28",
+    "status": "團體逛街參考・分店待選",
+    "desc": "先記下想買的保養、美妝，分店與庫存到店前再確認。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 올리브영",
+    "areaCoord": [
+      37.556,
+      126.923
+    ],
+    "time": "19:00–22:00",
+    "scheduleOrder": 70,
+    "group": "全員"
+  },
+  {
+    "id": "hongdae-daiso",
+    "scope": "group",
+    "type": "shopping",
+    "title": "大創 DAISO",
+    "ko": "다이소",
+    "area": "弘大",
+    "day": "10/28",
+    "status": "團體逛街參考・分店待選",
+    "desc": "日用品、小物購物名單，實際品項可記在購物清單。",
+    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
+    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
+    "query": "홍대 다이소",
+    "areaCoord": [
+      37.556,
+      126.923
+    ],
+    "time": "19:00–22:00",
+    "scheduleOrder": 70,
+    "group": "全員"
+  },
+  {
+    "id": "seorak",
+    "scope": "group",
+    "type": "sight",
+    "title": "雪嶽山・纜車與權金城",
+    "ko": "설악산",
+    "area": "束草周邊",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "第二天 10/29，原定 07:00–10:00 預留 3 小時；運行時間依當日公告。",
+    "tip": "成人來回 ₩16,000、單程約5分鐘；當日現場購票、不接受預約。風大先確認運行公告，可致電 +82-33-636-4300。",
+    "address": "강원도 속초시 설악산로 1085",
+    "coord": [
+      38.173,
+      128.489
+    ],
+    "query": "설악산 국립공원",
+    "source": "https://www.sorakcablecar.co.kr/guide",
+    "route": [
+      "雪嶽洞小公園：現場購票、候車",
+      "纜車約5分鐘 → 權金城上站",
+      "步行約15–20分鐘 → 權金城遺址",
+      "拍照、休息約20–30分鐘",
+      "步行約15–20分鐘回上站",
+      "纜車約5分鐘回小公園"
+    ],
+    "routeNote": "依你的筆記，連同購票、候車與慢走預留2.5–3小時。步道狀況依當日公告；需搭纜車下山，不售單程票。",
+    "time": "07:00–10:00",
+    "scheduleOrder": 1010,
+    "group": "全員"
+  },
+  {
+    "id": "naksan",
+    "scope": "group",
+    "type": "sight",
+    "title": "洛山寺",
+    "ko": "낙산사",
+    "area": "襄陽",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "10:00–12:00，雪嶽山後的下一站。",
+    "tip": "此時段沿用原表，移動時間需再與包車行程核對。",
+    "address": "洛山寺周邊・非指定集合入口",
+    "coord": [
+      38.125,
+      128.628
+    ],
+    "query": "낙산사",
+    "time": "10:00–12:00",
+    "scheduleOrder": 1020,
+    "group": "全員"
   },
   {
     "id": "sokcho-market",
@@ -64,7 +199,319 @@
         "label": "海鮮／共用器具需確認",
         "kind": "seafood"
       }
+    ],
+    "time": "12:00–13:45",
+    "scheduleOrder": 1030,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-squid",
+    "scope": "group",
+    "type": "food",
+    "title": "魷魚米腸",
+    "ko": "오징어순대",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一：以魷魚為主要食材的市場小吃。",
+    "tip": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
+    "ingredientInfo": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
+    "ingredients": [
+      {
+        "label": "含海鮮：魷魚",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 오징어순대",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-fried-seafood",
+    "scope": "group",
+    "type": "food",
+    "title": "炸海鮮",
+    "ko": "해물튀김",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，品項可能包括蝦、魷魚或蟹。",
+    "tip": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
+    "ingredientInfo": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
+    "ingredients": [
+      {
+        "label": "含海鮮",
+        "kind": "seafood"
+      },
+      {
+        "label": "醬料蜂蜜待確認",
+        "kind": "honey"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 해물튀김",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-crab-noodle",
+    "scope": "group",
+    "type": "food",
+    "title": "紅雪蟹麵",
+    "ko": "홍게라면",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，蟹與湯底都需要留意。",
+    "tip": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
+    "ingredientInfo": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
+    "ingredients": [
+      {
+        "label": "含海鮮：蟹",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 홍게라면",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-blackrice",
+    "scope": "group",
+    "type": "food",
+    "title": "黑米煎餅",
+    "ko": "흑미 부꾸미（名稱以現場確認）",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "你的必吃清單・攤位待選",
+    "desc": "你的束草必吃之一，店家與實際品項待選。",
+    "tip": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
+    "ingredientInfo": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
+    "ingredients": [
+      {
+        "label": "蜂蜜／淋醬待確認",
+        "kind": "honey"
+      },
+      {
+        "label": "海鮮共用器具待確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 흑미 부꾸미",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-chicken",
+    "scope": "group",
+    "type": "food",
+    "title": "韓式甜辣炸雞",
+    "ko": "닭강정",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "餐點候選・現場再確認",
+    "desc": "市場炸雞候選。你提醒甜味醬料可能使用蜂蜜。",
+    "tip": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
+    "ingredientInfo": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
+    "ingredients": [
+      {
+        "label": "可能含蜂蜜：必須確認",
+        "kind": "honey"
+      },
+      {
+        "label": "共用油鍋需確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 닭강정",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-kimchi",
+    "scope": "group",
+    "type": "food",
+    "title": "泡菜煎餅・正伊家候選",
+    "ko": "정이네 속초중앙시장점・김치전",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "餐點候選・現場再確認",
+    "desc": "第三方菜單列有泡菜煎餅，可作為到市場後詢問的店家候選。",
+    "tip": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
+    "ingredientInfo": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
+    "ingredients": [
+      {
+        "label": "泡菜／配料可能含海鮮",
+        "kind": "seafood"
+      },
+      {
+        "label": "蜂蜜醬料待確認",
+        "kind": "honey"
+      }
+    ],
+    "address": "第三方資料：束草市中央路147番街16，市場1樓148號（到訪前確認）",
+    "query": "정이네 속초중앙시장점",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://polle.com/place/3jgOdn/정이네",
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "sokcho-pumpkin",
+    "scope": "group",
+    "type": "food",
+    "title": "南瓜粥・攤位待確認",
+    "ko": "호박죽 / 단호박죽",
+    "area": "束草中央市場",
+    "day": "10/29",
+    "status": "想找・尚未查到攤位",
+    "desc": "已列入你想找的品項，但尚未查證市場內固定販售南瓜粥的攤位。",
+    "tip": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
+    "ingredientInfo": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
+    "ingredients": [
+      {
+        "label": "蜂蜜／甜味配方待確認",
+        "kind": "honey"
+      },
+      {
+        "label": "共用器具待確認",
+        "kind": "seafood"
+      }
+    ],
+    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
+    "query": "속초중앙시장 호박죽",
+    "areaCoord": [
+      38.204,
+      128.591
+    ],
+    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
+    "refs": [
+      {
+        "title": "參考菜單：有南瓜甜米露，未確認有粥",
+        "url": "https://polle.com/place/3jgOdn/정이네"
+      }
+    ],
+    "time": "12:00–13:45",
+    "scheduleOrder": 1031,
+    "group": "全員"
+  },
+  {
+    "id": "beach",
+    "scope": "group",
+    "type": "sight",
+    "title": "束草海灘",
+    "ko": "속초해수욕장",
+    "area": "束草",
+    "day": "10/29",
+    "status": "團體行程",
+    "desc": "13:45–15:00 海邊散步與拍照，15:00 原定返程弘大。",
+    "tip": "海邊活動留意風勢；返程到達時間依交通狀況。",
+    "address": "束草海灘區域",
+    "coord": [
+      38.19,
+      128.601
+    ],
+    "query": "속초해수욕장",
+    "time": "13:45–15:00",
+    "scheduleOrder": 1040,
+    "group": "全員"
+  },
+  {
+    "id": "touch-five",
+    "scope": "group",
+    "type": "sight",
+    "title": "TOUCH FIVE",
+    "ko": "正式場館位置待確認",
+    "area": "地點待定",
+    "day": "10/29",
+    "status": "猛男團・地址待定",
+    "desc": "18:30–22:00 猛男團：tsuki、kino、力敏、郁涵；含移動與排隊。",
+    "tip": "17:00–18:30 先盥洗化妝；取得票券場館資訊後再補位置。 NAVER Map 僅供名稱搜尋，請核對票券上的正式場館，尚未確認地址。",
+    "address": "待確認票券上的正式場館名稱與地址",
+    "time": "18:30–22:00",
+    "scheduleOrder": 1070,
+    "group": "猛男團",
+    "query": "TOUCH FIVE 서울"
+  },
+  {
+    "id": "dongdaemun",
+    "scope": "group",
+    "type": "shopping",
+    "title": "東大門逛街＋晚餐",
+    "ko": "동대문",
+    "area": "東大門區域",
+    "day": "10/29",
+    "time": "17:00–22:00",
+    "scheduleOrder": 1080,
+    "group": "男生團",
+    "status": "男生團",
+    "desc": "17:00–22:00 東大門逛街＋晚餐（男生團）。",
+    "tip": "依團體行程安排；出發前核對地點與交通。",
+    "address": "東大門區域",
+    "query": "동대문",
+    "areaCoord": [
+      37.571,
+      127.01
     ]
+  },
+  {
+    "id": "hongdae-bbq",
+    "scope": "group",
+    "type": "food",
+    "title": "弘大燒烤宵夜",
+    "ko": "홍대",
+    "area": "弘大",
+    "day": "10/29",
+    "status": "自由參加",
+    "desc": "22:00–24:00 看秀後的自由參加宵夜。",
+    "tip": "餐廳未指定；看秀後依精神與返程時間決定是否參加。",
+    "address": "弘大區域・餐廳待選",
+    "coord": [
+      37.556,
+      126.923
+    ],
+    "query": "홍대 고기집",
+    "time": "22:00–24:00",
+    "scheduleOrder": 1090,
+    "group": "自由參加"
   },
   {
     "id": "tosokchon",
@@ -83,121 +530,31 @@
       126.9717
     ],
     "query": "토속촌삼계탕 자하문로5길 5",
-    "source": "https://english.visitseoul.net/area/TosokchonSamgyetang/ENPywjsmm"
+    "source": "https://english.visitseoul.net/area/TosokchonSamgyetang/ENPywjsmm",
+    "time": "10:00–12:00",
+    "scheduleOrder": 2020,
+    "group": "全員"
   },
   {
-    "id": "crab",
+    "id": "hanbok",
     "scope": "group",
-    "type": "food",
-    "title": "元祖馬山小鬍子家・醬蟹",
-    "ko": "正式韓文店名待確認",
-    "area": "江南",
-    "day": "10/31",
-    "status": "店家待確認",
-    "desc": "11:30–13:30 與大家吃醬蟹，沿用原行程店名。",
-    "tip": "取得店家連結或訂位資料後，才能標示正確位置。",
-    "address": "待確認正式店名與地址",
-    "query": "元祖馬山小鬍子家 醬蟹"
-  },
-  {
-    "id": "myeong-food",
-    "scope": "group",
-    "type": "food",
-    "title": "明洞逛街晚餐",
-    "ko": "명동",
-    "area": "明洞",
+    "type": "sight",
+    "title": "韓服體驗",
+    "ko": "경복궁 한복대여",
+    "area": "景福宮韓服店搜尋（店家待確認）",
     "day": "10/30",
-    "status": "餐廳待選",
-    "desc": "17:00–22:00 跟學弟妹團逛街、吃晚餐。",
-    "tip": "地圖顯示明洞區域；店家依現場喜好決定。",
-    "address": "明洞區域・非特定餐廳",
-    "coord": [
-      37.563,
-      126.985
-    ],
-    "query": "명동 음식점"
-  },
-  {
-    "id": "hongdae-bbq",
-    "scope": "group",
-    "type": "food",
-    "title": "弘大燒烤宵夜",
-    "ko": "홍대",
-    "area": "弘大",
-    "day": "10/29",
-    "status": "自由參加",
-    "desc": "22:00–24:00 看秀後的自由參加宵夜。",
-    "tip": "餐廳未指定；看秀後依精神與返程時間決定是否參加。",
-    "address": "弘大區域・餐廳待選",
-    "coord": [
-      37.556,
-      126.923
-    ],
-    "query": "홍대 고기집"
-  },
-  {
-    "id": "seorak",
-    "scope": "group",
-    "type": "sight",
-    "title": "雪嶽山・纜車與權金城",
-    "ko": "설악산",
-    "area": "束草周邊",
-    "day": "10/29",
-    "status": "團體行程",
-    "desc": "第二天 10/29，原定 07:00–10:00 預留 3 小時；運行時間依當日公告。",
-    "tip": "成人來回 ₩16,000、單程約5分鐘；當日現場購票、不接受預約。風大先確認運行公告，可致電 +82-33-636-4300。",
-    "address": "강원도 속초시 설악산로 1085",
-    "coord": [
-      38.173,
-      128.489
-    ],
-    "query": "설악산 국립공원",
-    "source": "https://www.sorakcablecar.co.kr/guide",
-    "route": [
-      "雪嶽洞小公園：現場購票、候車",
-      "纜車約5分鐘 → 權金城上站",
-      "步行約15–20分鐘 → 權金城遺址",
-      "拍照、休息約20–30分鐘",
-      "步行約15–20分鐘回上站",
-      "纜車約5分鐘回小公園"
-    ],
-    "routeNote": "依你的筆記，連同購票、候車與慢走預留2.5–3小時。步道狀況依當日公告；需搭纜車下山，不售單程票。"
-  },
-  {
-    "id": "naksan",
-    "scope": "group",
-    "type": "sight",
-    "title": "洛山寺",
-    "ko": "낙산사",
-    "area": "襄陽",
-    "day": "10/29",
-    "status": "團體行程",
-    "desc": "10:00–12:00，雪嶽山後的下一站。",
-    "tip": "此時段沿用原表，移動時間需再與包車行程核對。",
-    "address": "洛山寺周邊・非指定集合入口",
-    "coord": [
-      38.125,
-      128.628
-    ],
-    "query": "낙산사"
-  },
-  {
-    "id": "beach",
-    "scope": "group",
-    "type": "sight",
-    "title": "束草海灘",
-    "ko": "속초해수욕장",
-    "area": "束草",
-    "day": "10/29",
-    "status": "團體行程",
-    "desc": "13:45–15:00 海邊散步與拍照，15:00 原定返程弘大。",
-    "tip": "海邊活動留意風勢；返程到達時間依交通狀況。",
-    "address": "束草海灘區域",
-    "coord": [
-      38.19,
-      128.601
-    ],
-    "query": "속초해수욕장"
+    "time": "12:00–13:30",
+    "scheduleOrder": 2030,
+    "group": "學弟妹團",
+    "status": "學弟妹團",
+    "desc": "12:00–13:30 韓服體驗（學弟妹團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "景福宮韓服店搜尋（店家待確認）",
+    "query": "경복궁 한복대여",
+    "areaCoord": [
+      37.579,
+      126.977
+    ]
   },
   {
     "id": "palace",
@@ -215,7 +572,10 @@
       37.579,
       126.977
     ],
-    "query": "경복궁"
+    "query": "경복궁",
+    "time": "13:30–15:10",
+    "scheduleOrder": 2040,
+    "group": "學弟妹團"
   },
   {
     "id": "bukchon",
@@ -233,7 +593,103 @@
       37.582,
       126.984
     ],
-    "query": "북촌한옥마을"
+    "query": "북촌한옥마을",
+    "time": "15:10–16:20",
+    "scheduleOrder": 2050,
+    "group": "學弟妹團"
+  },
+  {
+    "id": "myeong-food",
+    "scope": "group",
+    "type": "food",
+    "title": "明洞逛街晚餐",
+    "ko": "명동",
+    "area": "明洞",
+    "day": "10/30",
+    "status": "餐廳待選",
+    "desc": "17:00–22:00 跟學弟妹團逛街、吃晚餐。",
+    "tip": "地圖顯示明洞區域；店家依現場喜好決定。",
+    "address": "明洞區域・非特定餐廳",
+    "coord": [
+      37.563,
+      126.985
+    ],
+    "query": "명동 음식점",
+    "time": "17:00–22:00",
+    "scheduleOrder": 2070,
+    "group": "學弟妹團"
+  },
+  {
+    "id": "yy-afternoon-1030",
+    "scope": "group",
+    "type": "sight",
+    "title": "歪歪下午場",
+    "ko": "歪歪 서울",
+    "area": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "day": "10/30",
+    "time": "16:00–18:00",
+    "scheduleOrder": 2100,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "16:00–18:00 歪歪下午場（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "query": "歪歪 서울"
+  },
+  {
+    "id": "yy-evening-1030",
+    "scope": "group",
+    "type": "sight",
+    "title": "歪歪晚上場",
+    "ko": "歪歪 서울",
+    "area": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "day": "10/30",
+    "time": "20:00–22:00",
+    "scheduleOrder": 2130,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "20:00–22:00 歪歪晚上場（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "query": "歪歪 서울"
+  },
+  {
+    "id": "gangnam-style",
+    "scope": "group",
+    "type": "sight",
+    "title": "江南妝髮",
+    "ko": "Gangnam Seoul",
+    "area": "江南區域",
+    "day": "10/31",
+    "time": "09:00–11:00",
+    "scheduleOrder": 3010,
+    "group": "全員",
+    "status": "全員",
+    "desc": "09:00–11:00 江南妝髮（全員）。",
+    "tip": "依團體行程安排；出發前核對地點與交通。",
+    "address": "江南區域",
+    "query": "Gangnam Seoul",
+    "areaCoord": [
+      37.498,
+      127.028
+    ]
+  },
+  {
+    "id": "crab",
+    "scope": "group",
+    "type": "food",
+    "title": "元祖馬山小鬍子家・醬蟹",
+    "ko": "正式韓文店名待確認",
+    "area": "江南",
+    "day": "10/31",
+    "status": "店家待確認",
+    "desc": "11:30–13:30 與大家吃醬蟹，沿用原行程店名。",
+    "tip": "取得店家連結或訂位資料後，才能標示正確位置。",
+    "address": "待確認正式店名與地址",
+    "query": "元祖馬山小鬍子家 醬蟹",
+    "time": "11:30–13:30",
+    "scheduleOrder": 3020,
+    "group": "全員"
   },
   {
     "id": "seongsu",
@@ -251,7 +707,10 @@
       37.545,
       127.055
     ],
-    "query": "성수동"
+    "query": "성수동",
+    "time": "14:00–17:00",
+    "scheduleOrder": 3030,
+    "group": "學弟妹團"
   },
   {
     "id": "hannam",
@@ -269,20 +728,83 @@
       37.535,
       127.001
     ],
-    "query": "한남동"
+    "query": "한남동",
+    "time": "14:00–17:00",
+    "scheduleOrder": 3030,
+    "group": "學弟妹團"
   },
   {
-    "id": "touch-five",
+    "id": "seongsu-dinner",
+    "scope": "group",
+    "type": "food",
+    "title": "聖水洞晚餐",
+    "ko": "Seongsu dong Seoul",
+    "area": "聖水洞區域",
+    "day": "10/31",
+    "time": "17:00–19:00",
+    "scheduleOrder": 3040,
+    "group": "男生團",
+    "status": "男生團",
+    "desc": "17:00–19:00 聖水洞晚餐（男生團）。",
+    "tip": "餐廳待決定，地圖先提供所在區域。",
+    "address": "聖水洞區域",
+    "query": "Seongsu dong Seoul",
+    "areaCoord": [
+      37.545,
+      127.055
+    ]
+  },
+  {
+    "id": "halloween",
     "scope": "group",
     "type": "sight",
-    "title": "TOUCH FIVE",
-    "ko": "正式場館位置待確認",
-    "area": "地點待定",
-    "day": "10/29",
-    "status": "猛男團・地址待定",
-    "desc": "18:30–22:00 與 tsuki、kino、力敏一起看秀，時段含移動與排隊。",
-    "tip": "17:00–18:30 先盥洗化妝；取得票券場館資訊後再補位置。",
-    "address": "待確認票券上的正式場館名稱與地址"
+    "title": "江南 OR 漢江 OR 弘大萬聖節限定活動",
+    "ko": "Gangnam Seoul",
+    "area": "江南區域",
+    "day": "10/31",
+    "time": "19:00–21:30",
+    "scheduleOrder": 3050,
+    "group": "學弟妹團",
+    "status": "學弟妹團",
+    "desc": "19:00–21:30 江南 OR 漢江 OR 弘大萬聖節限定活動（學弟妹團）。",
+    "tip": "活動與地點尚待決定；江南、漢江、弘大皆附 NAVER Map。",
+    "address": "江南區域",
+    "query": "Gangnam Seoul",
+    "areaCoord": [
+      37.498,
+      127.028
+    ],
+    "mapOptions": [
+      {
+        "title": "江南區域",
+        "query": "Gangnam Seoul"
+      },
+      {
+        "title": "漢江區域（公園待選）",
+        "query": "한강공원"
+      },
+      {
+        "title": "弘大區域",
+        "query": "Hongdae Seoul"
+      }
+    ]
+  },
+  {
+    "id": "yy-afternoon-1031",
+    "scope": "group",
+    "type": "sight",
+    "title": "歪歪下午場",
+    "ko": "歪歪 서울",
+    "area": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "day": "10/31",
+    "time": "16:00–18:00",
+    "scheduleOrder": 3080,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "16:00–18:00 歪歪下午場（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "query": "歪歪 서울"
   },
   {
     "id": "yy-show",
@@ -294,8 +816,80 @@
     "day": "10/31",
     "status": "猛男團・地址待定",
     "desc": "18:00 晚餐會合、19:00 領票、20:00–22:00 看秀，之後全員拍照。",
-    "tip": "下午逛街先預留交通時間；餐廳、場館與廣場位置待確認。",
-    "address": "待確認晚餐、場館與拍照廣場位置"
+    "tip": "下午逛街先預留交通時間；餐廳、場館與廣場位置待確認。 NAVER Map 僅供名稱搜尋，請核對票券上的正式場館，尚未確認地址。",
+    "address": "待確認晚餐、場館與拍照廣場位置",
+    "time": "20:00–22:00",
+    "scheduleOrder": 3110,
+    "group": "猛男團",
+    "query": "歪歪 서울"
+  },
+  {
+    "id": "yy-photo",
+    "scope": "group",
+    "type": "sight",
+    "title": "萬聖節歪歪室外廣場拍照",
+    "ko": "歪歪 서울",
+    "area": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "day": "10/31",
+    "time": "22:00–22:30",
+    "scheduleOrder": 3120,
+    "group": "ALL",
+    "status": "ALL",
+    "desc": "22:00–22:30 萬聖節歪歪室外廣場拍照（ALL）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "query": "歪歪 서울"
+  },
+  {
+    "id": "clinic-1101",
+    "scope": "group",
+    "type": "sight",
+    "title": "醫美",
+    "ko": "서울 피부과",
+    "area": "首爾醫美搜尋（診所地址待確認）",
+    "day": "11/01",
+    "time": "10:00–13:00",
+    "scheduleOrder": 4040,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "10:00–13:00 醫美（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "首爾醫美搜尋（診所地址待確認）",
+    "query": "서울 피부과"
+  },
+  {
+    "id": "hunky-1101",
+    "scope": "group",
+    "type": "sight",
+    "title": "hunky 下午場",
+    "ko": "HUNKY 서울",
+    "area": "hunky（正式場館地址待確認）",
+    "day": "11/01",
+    "time": "15:00–16:30",
+    "scheduleOrder": 4080,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "15:00–16:30 hunky 下午場（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "hunky（正式場館地址待確認）",
+    "query": "HUNKY 서울"
+  },
+  {
+    "id": "yy-evening-1101",
+    "scope": "group",
+    "type": "sight",
+    "title": "歪歪晚上場",
+    "ko": "歪歪 서울",
+    "area": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "day": "11/01",
+    "time": "19:00–21:00",
+    "scheduleOrder": 4120,
+    "group": "學姊團",
+    "status": "學姊團",
+    "desc": "19:00–21:00 歪歪晚上場（學姊團）。",
+    "tip": "店家或場館地址待確認；NAVER Map 先提供名稱／區域搜尋，請核對結果。",
+    "address": "歪歪（沿用原稱呼；正式名稱與地址待確認）",
+    "query": "歪歪 서울"
   },
   {
     "id": "solo-friend",
@@ -400,60 +994,6 @@
     "address": "서울 마포구 성미산로29길 32",
     "query": "민트초코월드 연남점",
     "source": "https://lizzzstyle.tw/mintchoco-world/"
-  },
-  {
-    "id": "hongdae-pharmacy",
-    "scope": "group",
-    "type": "shopping",
-    "title": "弘大藥局",
-    "ko": "홍대 약국",
-    "area": "弘大",
-    "day": "日期待定",
-    "status": "團體逛街參考・分店待選",
-    "desc": "現場再向藥師詢問想買的品項。",
-    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
-    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
-    "query": "홍대 약국",
-    "areaCoord": [
-      37.556,
-      126.923
-    ]
-  },
-  {
-    "id": "hongdae-olive",
-    "scope": "group",
-    "type": "shopping",
-    "title": "OLIVE YOUNG",
-    "ko": "올리브영",
-    "area": "弘大",
-    "day": "日期待定",
-    "status": "團體逛街參考・分店待選",
-    "desc": "先記下想買的保養、美妝，分店與庫存到店前再確認。",
-    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
-    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
-    "query": "홍대 올리브영",
-    "areaCoord": [
-      37.556,
-      126.923
-    ]
-  },
-  {
-    "id": "hongdae-daiso",
-    "scope": "group",
-    "type": "shopping",
-    "title": "大創 DAISO",
-    "ko": "다이소",
-    "area": "弘大",
-    "day": "日期待定",
-    "status": "團體逛街參考・分店待選",
-    "desc": "日用品、小物購物名單，實際品項可記在購物清單。",
-    "tip": "放在與大家逛街的商店名單。10/28你19:15才抵達仁川，會合與逛街時間依實際交通決定。",
-    "address": "弘大商圈；尚未指定分店，搜尋結果自行選擇。",
-    "query": "홍대 다이소",
-    "areaCoord": [
-      37.556,
-      126.923
-    ]
   },
   {
     "id": "withmuu",
@@ -621,213 +1161,5 @@
     "scope": "solo",
     "day": "日期待定",
     "status": "使用者想去・未排入"
-  },
-  {
-    "id": "sokcho-squid",
-    "scope": "group",
-    "type": "food",
-    "title": "魷魚米腸",
-    "ko": "오징어순대",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "你的必吃清單・攤位待選",
-    "desc": "你的束草必吃之一：以魷魚為主要食材的市場小吃。",
-    "tip": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
-    "ingredientInfo": "含魷魚，海鮮過敏者應避開；若同行分食，留意餐具與其他餐點接觸。",
-    "ingredients": [
-      {
-        "label": "含海鮮：魷魚",
-        "kind": "seafood"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 오징어순대",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
-  },
-  {
-    "id": "sokcho-fried-seafood",
-    "scope": "group",
-    "type": "food",
-    "title": "炸海鮮",
-    "ko": "해물튀김",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "你的必吃清單・攤位待選",
-    "desc": "你的束草必吃之一，品項可能包括蝦、魷魚或蟹。",
-    "tip": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
-    "ingredientInfo": "海鮮過敏者應避開。其他炸物也需先確認是否共用油鍋；蜂蜜醬或糖漿成分另向店家確認。",
-    "ingredients": [
-      {
-        "label": "含海鮮",
-        "kind": "seafood"
-      },
-      {
-        "label": "醬料蜂蜜待確認",
-        "kind": "honey"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 해물튀김",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
-  },
-  {
-    "id": "sokcho-crab-noodle",
-    "scope": "group",
-    "type": "food",
-    "title": "紅雪蟹麵",
-    "ko": "홍게라면",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "你的必吃清單・攤位待選",
-    "desc": "你的束草必吃之一，蟹與湯底都需要留意。",
-    "tip": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
-    "ingredientInfo": "含蟹，海鮮過敏者應避開；湯底或調味粉也可能含其他海鮮成分。",
-    "ingredients": [
-      {
-        "label": "含海鮮：蟹",
-        "kind": "seafood"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 홍게라면",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
-  },
-  {
-    "id": "sokcho-blackrice",
-    "scope": "group",
-    "type": "food",
-    "title": "黑米煎餅",
-    "ko": "흑미 부꾸미（名稱以現場確認）",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "你的必吃清單・攤位待選",
-    "desc": "你的束草必吃之一，店家與實際品項待選。",
-    "tip": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
-    "ingredientInfo": "甜餡、淋醬是否含蜂蜜、是否共用海鮮煎台或器具，都需現場確認。名稱不代表無蜂蜜或無海鮮。",
-    "ingredients": [
-      {
-        "label": "蜂蜜／淋醬待確認",
-        "kind": "honey"
-      },
-      {
-        "label": "海鮮共用器具待確認",
-        "kind": "seafood"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 흑미 부꾸미",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
-  },
-  {
-    "id": "sokcho-chicken",
-    "scope": "group",
-    "type": "food",
-    "title": "韓式甜辣炸雞",
-    "ko": "닭강정",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "餐點候選・現場再確認",
-    "desc": "市場炸雞候選。你提醒甜味醬料可能使用蜂蜜。",
-    "tip": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
-    "ingredientInfo": "不是所有店家的配方都相同；蜂蜜過敏者須向店家確認蜂蜜、醬料與共用器具，未確認前不當作可食用選項。",
-    "ingredients": [
-      {
-        "label": "可能含蜂蜜：必須確認",
-        "kind": "honey"
-      },
-      {
-        "label": "共用油鍋需確認",
-        "kind": "seafood"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 닭강정",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043"
-  },
-  {
-    "id": "sokcho-kimchi",
-    "scope": "group",
-    "type": "food",
-    "title": "泡菜煎餅・正伊家候選",
-    "ko": "정이네 속초중앙시장점・김치전",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "餐點候選・現場再確認",
-    "desc": "第三方菜單列有泡菜煎餅，可作為到市場後詢問的店家候選。",
-    "tip": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
-    "ingredientInfo": "泡菜可能使用蝦醬或魚露，煎餅也可能添加海鮮或共用煎台。海鮮過敏者不可直接當成替代餐，須店家確認配方與製程。",
-    "ingredients": [
-      {
-        "label": "泡菜／配料可能含海鮮",
-        "kind": "seafood"
-      },
-      {
-        "label": "蜂蜜醬料待確認",
-        "kind": "honey"
-      }
-    ],
-    "address": "第三方資料：束草市中央路147番街16，市場1樓148號（到訪前確認）",
-    "query": "정이네 속초중앙시장점",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://polle.com/place/3jgOdn/정이네"
-  },
-  {
-    "id": "sokcho-pumpkin",
-    "scope": "group",
-    "type": "food",
-    "title": "南瓜粥・攤位待確認",
-    "ko": "호박죽 / 단호박죽",
-    "area": "束草中央市場",
-    "day": "10/29",
-    "status": "想找・尚未查到攤位",
-    "desc": "已列入你想找的品項，但尚未查證市場內固定販售南瓜粥的攤位。",
-    "tip": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
-    "ingredientInfo": "搜尋到的市場菜單是「南瓜甜米露 단호박식혜」，與南瓜粥不同，不會混寫為同一品項。粥的甜味配方及海鮮共用器具仍需確認。",
-    "ingredients": [
-      {
-        "label": "蜂蜜／甜味配方待確認",
-        "kind": "honey"
-      },
-      {
-        "label": "共用器具待確認",
-        "kind": "seafood"
-      }
-    ],
-    "address": "市場區域示意；非特定攤位，請用餐名搜尋。",
-    "query": "속초중앙시장 호박죽",
-    "areaCoord": [
-      38.204,
-      128.591
-    ],
-    "source": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=75043",
-    "refs": [
-      {
-        "title": "參考菜單：有南瓜甜米露，未確認有粥",
-        "url": "https://polle.com/place/3jgOdn/정이네"
-      }
-    ]
   }
 ]

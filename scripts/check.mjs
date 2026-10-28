@@ -71,3 +71,25 @@ for (let d = 0; d < trip.days.length; d++) {
   }
 }
 console.log('All group routes, personal plans, overnight timing, day rendering, and NAVER links passed.');
+// Guide order must follow the itinerary across categories and preserve links in every filter.
+const guideElements = new Map();
+const guideDocument = {...document,
+  getElementById(id){if(!guideElements.has(id))guideElements.set(id,stub());return guideElements.get(id)},
+  querySelector(){return stub()}};
+const guideContext = vm.createContext({document:guideDocument,localStorage:{getItem(){return null}},window:{},location:{search:''},URLSearchParams,encodeURIComponent});
+vm.runInContext(guide, guideContext);
+const guideIDs=Array.from(vm.runInContext('filtered().map(p=>p.id)',guideContext));
+assert(guideIDs.indexOf('seorak')<guideIDs.indexOf('sokcho-market'));
+assert(guideIDs.indexOf('sokcho-pumpkin')<guideIDs.indexOf('beach'));
+assert(guideIDs.indexOf('hongdae-pharmacy')<guideIDs.indexOf('seorak'));
+for(const day of ['','10/28','10/29','10/30','10/31','11/01']) for(const category of ['all','food','sight','shopping']){
+  guideElements.get('day-filter').value=day;
+  vm.runInContext(`type=${JSON.stringify(category)};render()`,guideContext);
+  const ids=Array.from(vm.runInContext('filtered().map(p=>p.id)',guideContext));
+  const cards=guideElements.get('cards').innerHTML;
+  for(const id of ids){
+    const card=cards.match(new RegExp(`data-card="${id}"[\\s\\S]*?<\\/article>`))?.[0];
+    assert(card?.includes('https://map.naver.com/p/search/'), `Guide card ${id} needs a NAVER link`);
+  }
+}
+console.log('Guide sequence, date/category filters, and per-card NAVER links passed.');
