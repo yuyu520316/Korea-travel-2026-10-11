@@ -63,3 +63,9 @@ await mkdir(path.join(output, releasePath), { recursive: true });
 for (const file of [...htmlFiles, ...assets]) await copyFile(path.join(output, file), path.join(output, releasePath, file));
 await writeFile(path.join(output, 'release.json'), JSON.stringify({path:releasePath}) + '\n');
 console.log(`Verified-build URL path: /${releasePath}/`);
+
+// Keep the already-shared link working after future itinerary updates.
+for (const sharedPath of ['updated-f8515ca4a5bb']) {
+  await mkdir(path.join(output, sharedPath), { recursive: true });
+  for (const file of [...htmlFiles, ...assets]) await copyFile(path.join(output, file), path.join(output, sharedPath, file));
+}
