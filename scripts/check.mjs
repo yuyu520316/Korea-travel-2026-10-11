@@ -104,3 +104,22 @@ assert(/id="weco-stay"><span[\s\S]*?WECOSTAY Chungmuro/.test(main),'Hotel must b
 const guideHTML = await readFile(path.join(root,'dist/guide.html'),'utf8');
 assert(/src="guide\.js\?v=[a-f0-9]{12}"/.test(guideHTML),'Version guide assets to prevent stale code');
 console.log('Fresh release pages, visible lodging, and versioned assets passed.');
+// Shopping defaults must merge once without losing saved purchases or re-adding removed brands.
+const shopping = await readFile(path.join(root,'dist/shopping.js'),'utf8');
+const shoppingStorage = new Map([['seoul-yuhan-buy-list-v1',JSON.stringify([{id:'saved',name:'護手霜',shop:'olive',qty:3,done:true}])]]);
+const runShopping = () => {
+  const fields = new Map();
+  const doc = {getElementById(id){if(!fields.has(id))fields.set(id,stub());return fields.get(id)}};
+  const ctx = vm.createContext({document:doc,localStorage:{getItem:k=>shoppingStorage.get(k)||null,setItem:(k,v)=>shoppingStorage.set(k,v)}});
+  vm.runInContext(shopping,ctx);
+  return ctx;
+};
+let shoppingContext = runShopping();
+let list = JSON.parse(shoppingStorage.get('seoul-yuhan-buy-list-v1'));
+assert.deepEqual(list.map(x=>x.name),['護手霜','innisfree','adidas']);
+assert.equal(list[0].qty,3);assert.equal(list[0].done,true);
+vm.runInContext("items=items.filter(x=>x.name!=='adidas');save()",shoppingContext);
+runShopping();
+list=JSON.parse(shoppingStorage.get('seoul-yuhan-buy-list-v1'));
+assert(!list.some(x=>x.name==='adidas'),'Respect removal after one-time brand addition');
+console.log('Shopping brands merge once and preserve existing list state.');
