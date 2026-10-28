@@ -93,3 +93,14 @@ for(const day of ['','10/28','10/29','10/30','10/31','11/01']) for(const categor
   }
 }
 console.log('Guide sequence, date/category filters, and per-card NAVER links passed.');
+// A fresh release URL must include the exact validated pages and current assets.
+const release = JSON.parse(await readFile(path.join(root, 'dist/release.json'), 'utf8'));
+assert(/^updated-[a-f0-9]{12}$/.test(release.path));
+for (const file of ['index.html','guide.html','shopping.html','guide.js','shopping.js','ui.css','home.css','guide.css','shopping.css']) {
+  assert.equal(await readFile(path.join(root,'dist',release.path,file),'utf8'),await readFile(path.join(root,'dist',file),'utf8'));
+}
+assert(main.includes('10/28 更新版'));
+assert(/id="weco-stay"><span[\s\S]*?WECOSTAY Chungmuro/.test(main),'Hotel must be visible before JavaScript runs');
+const guideHTML = await readFile(path.join(root,'dist/guide.html'),'utf8');
+assert(/src="guide\.js\?v=[a-f0-9]{12}"/.test(guideHTML),'Version guide assets to prevent stale code');
+console.log('Fresh release pages, visible lodging, and versioned assets passed.');
