@@ -6,7 +6,7 @@
       "short": "出發首爾",
       "title": "一起抵達，展開首爾旅程",
       "sub": "SEOUL · GROUP ITINERARY",
-      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 記得買好隔天早餐。此處為大家的 10/28 行程；郁涵原訂 CI161 另見個人備註。",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 記得買好隔天早餐。此處為大家的 10/28 行程；郁涵原訂 CI161 另見個人備註。 郁涵 10/28、10/29 住宿為 WECOSTAY Chungmuro（忠武路），10/30 退房；原表弘大集合／搬宿路線需依實際住宿調整，時段先保留。",
       "events": [
         {
           "time": "08:00–11:05",
@@ -43,7 +43,7 @@
         {
           "time": "16:10–17:00",
           "title": "旅館 CHECK IN＋換錢",
-          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "desc": "團體住宿／集合位置依實際安排確認；郁涵 10/28、10/29 住 WECOSTAY Chungmuro（忠武路），往返弘大時間另行確認。",
           "group": "全員",
           "place": "hongdae",
           "naverQuery": "Hongdae Seoul"
@@ -80,12 +80,12 @@
       "short": "山海與夜秀",
       "title": "雪嶽山、束草與分組夜生活",
       "sub": "SEOUL · GROUP ITINERARY",
-      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 郁涵 10/28、10/29 住宿為 WECOSTAY Chungmuro（忠武路），10/30 退房；原表弘大集合／搬宿路線需依實際住宿調整，時段先保留。",
       "events": [
         {
           "time": "05:00–07:00",
           "title": "從飯店出發",
-          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "desc": "團體住宿／集合位置依實際安排確認；郁涵 10/28、10/29 住 WECOSTAY Chungmuro（忠武路），往返弘大時間另行確認。",
           "group": "全員",
           "place": "hongdae",
           "naverQuery": "Hongdae Seoul"
@@ -133,7 +133,7 @@
         {
           "time": "17:00–18:30",
           "title": "盥洗化妝",
-          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "desc": "團體住宿／集合位置依實際安排確認；郁涵 10/28、10/29 住 WECOSTAY Chungmuro（忠武路），往返弘大時間另行確認。",
           "group": "猛男團",
           "place": "hongdae",
           "naverQuery": "Hongdae Seoul"
@@ -170,7 +170,7 @@
       "short": "韓服與古宮",
       "title": "古宮散策與學姊團看秀",
       "sub": "SEOUL · GROUP ITINERARY",
-      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。",
+      "notice": "依提供的順序排列；分組並行時段分段呈現。時間為當地時間，交通與地址依實際安排確認。 郁涵 10/28、10/29 住宿為 WECOSTAY Chungmuro（忠武路），10/30 退房；原表弘大集合／搬宿路線需依實際住宿調整，時段先保留。",
       "events": [
         {
           "time": "08:30–09:00",
@@ -239,7 +239,7 @@
         {
           "time": "13:00–15:00",
           "title": "盥洗化妝",
-          "desc": "飯店名稱與地址待確認；地圖先提供住宿區域。",
+          "desc": "團體住宿／集合位置依實際安排確認；郁涵 10/28、10/29 住 WECOSTAY Chungmuro（忠武路），往返弘大時間另行確認。",
           "group": "學姊團",
           "place": "myeong",
           "naverQuery": "Myeongdong Seoul"
@@ -768,6 +768,12 @@
       37.528,
       126.934,
       "한강공원"
+    ],
+    "weco": [
+      "WECOSTAY Chungmuro・忠武路",
+      null,
+      null,
+      "위코스테이 충무로 충무로2길 9"
     ]
   },
   "groups": [
@@ -823,7 +829,7 @@
       "short": "出發首爾",
       "title": "晚一點抵達，一樣期待",
       "sub": "TAOYUAN → INCHEON → SEOUL",
-      "notice": "你與大家不同班機。當晚不安排豬腳小姐晚餐與 TOUCH FIVE，會合視入境與交通時間而定。",
+      "notice": "個人班機 19:15 抵達仁川 T2，入境後前往 WECOSTAY Chungmuro（忠武路）；抵達時間與入住方式依訂單確認。",
       "events": [
         {
           "time": "15:40 → 19:15",
@@ -843,11 +849,11 @@
         },
         {
           "time": "時間待定",
-          "title": "前往弘大・入住與晚餐",
-          "desc": "暫按團體住宿區域規劃，飯店與會合地點待確認。記得買隔天早餐。",
+          "title": "前往 WECOSTAY Chungmuro・入住與晚餐",
+          "desc": "10/28、10/29 住 WECOSTAY Chungmuro（忠武路）；10/30 退房。地址：서울 중구 충무로2길 9。記得買隔天早餐。",
           "group": "個人",
-          "place": "hongdae",
-          "naverQuery": "Hongdae Seoul"
+          "place": "weco",
+          "naverQuery": "위코스테이 충무로 충무로2길 9"
         }
       ]
     },
@@ -902,6 +908,22 @@
           "naverQuery": "서울"
         }
       ]
+    }
+  ],
+  "stays": [
+    {
+      "id": "weco",
+      "name": "WECOSTAY Chungmuro",
+      "ko": "위코스테이 충무로",
+      "checkin": "2026-10-28",
+      "checkout": "2026-10-30",
+      "nights": 2,
+      "address": "서울 중구 충무로2길 9",
+      "addressEn": "9, Chungmuro 2-gil, Jung-gu, Seoul",
+      "query": "위코스테이 충무로 충무로2길 9",
+      "booking": "https://www.booking.com/hotel/kr/wecostay-chungmuro.zh-tw.html",
+      "source": "https://eu-s.wecostay.com/en/stay/site/cmr",
+      "note": "依你指定的 10/28、10/29 兩晚整理，10/30 退房；費用與訂房狀態未提供。"
     }
   ]
 }

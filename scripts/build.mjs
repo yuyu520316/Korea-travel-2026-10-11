@@ -13,7 +13,7 @@ let main = await readFile(path.join(root, 'site/index.html'), 'utf8');
 const begin = main.indexOf('const E=');
 const end = main.indexOf('let day=', begin);
 if (begin < 0 || end < 0) throw new Error('Cannot locate itinerary data in site/index.html');
-main = main.slice(0, begin) + `const P=${safe(trip.areas)};\nconst D=${safe(trip.days)};\nconst G=${safe(trip.groups)};\nconst PERSONAL=${safe(trip.personalDays)};\n` + main.slice(end);
+main = main.slice(0, begin) + `const P=${safe(trip.areas)};\nconst D=${safe(trip.days)};\nconst G=${safe(trip.groups)};\nconst PERSONAL=${safe(trip.personalDays)};\nconst STAYS=${safe(trip.stays || [])};\n` + main.slice(end);
 await writeFile(path.join(root, 'dist/index.html'), main);
 let guide = await readFile(path.join(root, 'site/guide.js'), 'utf8');
 const dataStart = guide.indexOf('const spots=');
